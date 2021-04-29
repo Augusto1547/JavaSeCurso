@@ -1,5 +1,5 @@
  
-package br.com.javase.projetosPessoais.MediaDeAprovados;
+package br.com.fuctura.projetosPessoais.MediaDeAprovados;
 
 
 public class Program {
@@ -10,11 +10,7 @@ public class Program {
         
         Portuguese portugues = new Portuguese();
         
-        portugues.porraVelho();
-        portugues.oiNao();
-        
-        
-            
+          
     }
 
 }
