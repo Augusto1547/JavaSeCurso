@@ -6,10 +6,6 @@ public abstract class Matter {
     private String shift;
     private String grade;
 
-    public Matter() {
-
-        super();
-    }
 
     public Matter(String name, String shift, String grade) {
         this.name = name;
@@ -40,8 +36,5 @@ public abstract class Matter {
     public void setGrade(String grade) {
         this.grade = grade;
     }
-
-    
-
 
 }
