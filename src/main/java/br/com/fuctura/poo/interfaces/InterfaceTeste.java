@@ -1,4 +1,4 @@
-package br.com.functura.poo.interfaces;
+package br.com.fuctura.poo.interfaces;
 
 public class InterfaceTeste {
     
