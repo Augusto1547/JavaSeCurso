@@ -4,24 +4,28 @@ import java.util.Scanner;
 
 public class Program {
 
-
     public static void main(String[] args) {
 
-        Scanner recebe = new Scanner(System.in, "ISO-8859-1");
+        try {
 
-        System.out.println("Informe a matéria");
-        String nome = recebe.nextLine();
+            Scanner recebe = new Scanner(System.in, "ISO-8859-1");
 
-        System.out.println("Informe o turno");
-        String turno = recebe.nextLine();
+            System.out.println("Informe a matéria");
+            String disciplina = recebe.nextLine();
 
-        System.out.println("Informe à série");
-        String serie = recebe.nextLine();
-        
-        System.out.println();
+            System.out.println("Informe o turno");
+            String turno = recebe.nextLine();
 
-        Mathematics matematicaManha = new Mathematics(nome, turno, serie);
+            System.out.println();
+            
+            Mathematics priSerieManha = new Mathematics(disciplina, turno);
 
+            priSerieManha.mostrarAprovadosTurnoManha();
+
+        } catch (Exception erro) {
+
+            System.out.println("Tipo de erro : " + erro);
+        }
     }
 
 }

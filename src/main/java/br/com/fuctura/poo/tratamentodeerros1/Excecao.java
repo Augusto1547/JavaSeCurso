@@ -1,4 +1,4 @@
-package br.com.fuctura.poo.tratamentodeerrors1;
+package br.com.fuctura.poo.tratamentodeerros1;
 
 public class Excecao {
 

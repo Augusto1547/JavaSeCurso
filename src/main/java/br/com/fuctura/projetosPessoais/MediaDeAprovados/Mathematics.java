@@ -1,70 +1,57 @@
 package br.com.fuctura.projetosPessoais.MediaDeAprovados;
 
-public class Mathematics extends Matter implements ApprovedMorning,ApprovedAfternoon,ApprovedNight{
+import br.com.fuctura.projetosPessoais.AprovadosInterfaces.*;
 
-    public Mathematics(String name, String shift, String grade) {
-        super(name, shift, grade);
+public class Mathematics extends Disciplina implements ApprovedMorning {
+
+    public Mathematics(String nomeDaDisciplina, String turnoDasProvas) {
+        super(nomeDaDisciplina, turnoDasProvas);
     }
 
     @Override
-    public void imprimirAprovadosMatematicaManha() {
+    public void aprovadosTurnoDaManhaPrimeiraSerie() {
+
+        if ((super.nomeDaDisciplina.equals("matemática")
+                || super.nomeDaDisciplina.equals("Matemática"))
+                && (super.turnoDasProvas.equals("manhã")
+                || super.turnoDasProvas.equals("Manhã"))) {
+
+            System.out.println("\t\t ALUNOS APROVADOS PRIMEIRA SÉRIE A\n");
+
+            AlunosAprovados aluPriSerieManha = new AlunosAprovados("Nome: Augusto César \t Nota :", 9.6);
+            System.out.println(aluPriSerieManha.nomeAluno + aluPriSerieManha.nota);
+
+        } else {
+
+            System.out.println("Você digitou alguma informação errada");
+        }
+    }
+
+    @Override
+    public void aprovadosTurnoDaManhaSegundaSerie() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void imprimirAprovadosPortuguesManha() {
+    public void aprovadosTurnoDaManhaTerceiraSerie() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void imprimirAprovadosBiologiaManha() {
+    public void aprovadosTurnoDaManhaQuartaSerie() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void imprimirAprovadosQuimicaManha() {
+    public void aprovadosTurnoDaManhaQuintaSerie() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void imprimirAprovadosMatematicaTarde() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void mostrarAprovadosTurnoManha() {
+
+        this.aprovadosTurnoDaManhaPrimeiraSerie();
+
     }
 
-    @Override
-    public void imprimirAprovadosPortuguesTarde() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public void imprimirAprovadosBiologiaTarde() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public void imprimirAprovadosQuimicaTarde() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public void imprimirAprovadosMatematicaNoite() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public void imprimirAprovadosPortuguesNoite() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public void imprimirAprovadosBiologiaNoite() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public void imprimirAprovadosQuimicaNoite() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-   
 }
