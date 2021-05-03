@@ -1,6 +1,6 @@
 package br.com.fuctura.poo.tratamentodeerros2;
 
-public class MultiplosCatchGenerico {
+public class FinallyPegadinha {
 
     public static void main(String[] args) {
 
@@ -16,11 +16,15 @@ public class MultiplosCatchGenerico {
             catch (ArithmeticException e1) {
 //os blocos catch devem seguir a ordem lógica dos erros, também as mais específicas primeiro e as genéricas depois(se tiver)
                 System.out.println("Erro ao dividir por zero");
+                System.exit(0); //é um comando pra sair do programa ele barra o finally
+                //como se eu puchasse o cabo da tomada.
 
             } catch (Throwable e2) {
 //É a super classe de todas as excessões no java mas isso não é uma boa prática
 
                 System.out.println("Ocorreu um erro");
+
+                System.exit(0);
 
             } finally {
 //finally serve para fechar uma conexão com o banco pra não deixar aberta,fechar um arquivo etc
@@ -29,4 +33,5 @@ public class MultiplosCatchGenerico {
             }
         }
     }
+
 }
