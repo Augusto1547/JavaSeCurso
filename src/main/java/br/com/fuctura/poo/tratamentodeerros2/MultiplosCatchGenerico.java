@@ -1,6 +1,6 @@
 package br.com.fuctura.poo.tratamentodeerros2;
 
-public class MultiplosCatch {
+public class MultiplosCatchGenerico {
 
     public static void main(String[] args) {
 
@@ -14,18 +14,21 @@ public class MultiplosCatch {
                         + (numeros[i] / demon[i]));
             } //          você pode ter quantos blocos catch for necessários até mesmo aninhados
             catch (ArithmeticException e1) {
-
+//os blocos catch devem seguir a ordem lógica dos erros, também as mais específicas primeiro e as genéricas depois(se tiver)
                 System.out.println("Erro ao dividir por zero");
-            } catch (ArrayIndexOutOfBoundsException e2) {
 
-                System.out.println("Posição do array inválida");
+            } catch (Throwable e2) {
+//É a super classe de todas as excessões no java mas isso não é uma boa prática
 
-            } catch (Exception ex) {
+                System.out.println("Ocorreu um erro");
 
-//Excessão genérica: agora está protegido de alguns erros que agente não sabe que existem
+            //    System.exit(i); é um comando pra sair do programa ele barra o finally
+
+            } finally {
+//finally serve para fechar uma conexão com o banco pra não deixar aberta,fechar um arquivo etc
+
+                System.out.println("Executando finally");
             }
         }
-
     }
-
 }
