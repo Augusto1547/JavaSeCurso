@@ -1,4 +1,4 @@
-package br.com.fuctura.projetosPessoais.MediaDeAprovados;
+package br.com.fuctura.projetosPessoais.AlunosAprovados;
 
 public class AlunosAprovados {
 

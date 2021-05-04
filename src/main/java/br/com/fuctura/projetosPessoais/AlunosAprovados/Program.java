@@ -1,4 +1,4 @@
-package br.com.fuctura.projetosPessoais.MediaDeAprovados;
+package br.com.fuctura.projetosPessoais.AlunosAprovados;
 
 import java.util.Scanner;
 
@@ -18,9 +18,10 @@ public class Program {
 
             System.out.println();
             
-            Mathematics priSerieManha = new Mathematics(disciplina, turno);
+            MatematicaTurnoManha aprovadosManha = new MatematicaTurnoManha(disciplina, turno);
 
-            priSerieManha.mostrarAprovadosTurnoManha();
+            aprovadosManha.mostrarAprovadosManha();
+            
 
         } catch (Exception erro) {
 

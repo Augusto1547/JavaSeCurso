@@ -10,4 +10,6 @@ public interface ApprovedNight {
 
     void aprovadosTurnoDaNoiteTerceiroAno();
 
+    void mostrarAprovadosTurnoManha();
+
 }

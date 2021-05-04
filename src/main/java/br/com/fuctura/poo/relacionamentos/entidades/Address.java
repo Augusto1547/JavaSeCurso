@@ -7,6 +7,10 @@ public class Address {
     private String district;
     private String city;
 
+    Address(String rua_70, String string, String maranguape_II, String paulista, String barraca_de_Ivonete) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public String getStreet() {
         return street;
     }

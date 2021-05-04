@@ -15,5 +15,8 @@ public interface ApprovedAfternoon {
     void aprovadosTurnoDaTardeSegundoAno();
 
     void aprovadosTurnoDaTardeTerceiroAno();
+    
+    void mostrarAprovadosTurnoTarde();
+
 
 }

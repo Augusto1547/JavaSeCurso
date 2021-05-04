@@ -12,7 +12,7 @@ public class UsandoThrows {
             double num = leNumero();
             System.out.println("Você digitou " + num);
         } catch (Exception ex) {
-            
+
             System.out.println("Entrada inválida");
             ex.printStackTrace();
 //printStrackTrace(); é usado para os programadores mas os usuários não podem ver a mensagem de erro

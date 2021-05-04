@@ -1,4 +1,4 @@
-package br.com.fuctura.projetosPessoais.MediaDeAprovados;
+package br.com.fuctura.projetosPessoais.AlunosAprovados;
 
 public abstract class Disciplina {
 
@@ -6,8 +6,8 @@ public abstract class Disciplina {
     String turnoDasProvas;
     AlunosAprovados alunos;
 
-    public Disciplina(){
-        
+    public Disciplina() {
+
         super();
     }
 
@@ -15,7 +15,10 @@ public abstract class Disciplina {
         this.nomeDaDisciplina = nomeDaDisciplina;
         this.turnoDasProvas = turnoDasProvas;
     }
-    
-    public abstract void mostrarAprovadosTurnoManha();
+
+    @Override
+    public String toString() {
+        return "Disciplina{" + "alunos=" + alunos + '}';
+    }
 
 }
