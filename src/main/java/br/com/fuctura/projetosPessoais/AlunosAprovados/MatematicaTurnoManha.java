@@ -1,11 +1,11 @@
 package br.com.fuctura.projetosPessoais.AlunosAprovados;
 
-import br.com.fuctura.projetosPessoais.AprovadosInterfaces.ApprovedMorning;
-import br.com.fuctura.projetosPessoais.OutrasSalas.MatematicaSalaB;
+import br.com.fuctura.projetosPessoais.AprovadosInterfaces.iApprovedMorning;
+import br.com.fuctura.projetosPessoais.SalasB.SalaBTurnoManha;
 
-public class MatematicaTurnoManha extends Disciplina implements ApprovedMorning {
+public class MatematicaTurnoManha extends Disciplina implements iApprovedMorning {
 
-    MatematicaSalaB aprovadosSalaB;
+    SalaBTurnoManha salaB;
 
     public MatematicaTurnoManha(String nomeDaDisciplina, String turnoDasProvas) {
         super(nomeDaDisciplina, turnoDasProvas);
@@ -44,6 +44,9 @@ public class MatematicaTurnoManha extends Disciplina implements ApprovedMorning 
                 System.out.println(aprovado.nomeAluno + aprovado.nota);
             }
 
+            System.out.println("\t\t ALUNOS APROVADOS PRIMEIRA SÉRIE B\n");
+            this.mostrarAprovadosManhaSalaBMatematica();
+
         } else {
 
             System.out.println("Você digitou alguma informação errada");
@@ -51,12 +54,11 @@ public class MatematicaTurnoManha extends Disciplina implements ApprovedMorning 
         System.out.println();
     }
 
-    public static void aprovadosTurnoDaManhaPrimeiraSerie() {
+    public void mostrarAprovadosManhaSalaBMatematica() {
 
-        MatematicaSalaB.aprovadosTurnoDaManhaPrimeiraSerieB();
     }
-    //Primeira série
 
+    //Primeira série
     @Override
     public void aprovadosTurnoDaManhaSegundaSerieA() {
         if ((super.nomeDaDisciplina.equals("matemática")
@@ -216,14 +218,20 @@ public class MatematicaTurnoManha extends Disciplina implements ApprovedMorning 
     }
 
     @Override
-    public void mostrarAprovadosManha() {
+    public void mostrarAprovadosManhaSalaA() {
 
         this.aprovadosTurnoDaManhaPrimeiraSerieA();
+
         this.aprovadosTurnoDaManhaSegundaSerieA();
         this.aprovadosTurnoDaManhaTerceiraSerieA();
         this.aprovadosTurnoDaManhaQuartaSerieA();
         this.aprovadosTurnoDaManhaQuintaSerieA();
 
+    }
+
+    public void mostrarAprovadosManhaSalaB() {
+
+        this.mostrarAprovadosManhaSalaBMatematica();
     }
 
 }

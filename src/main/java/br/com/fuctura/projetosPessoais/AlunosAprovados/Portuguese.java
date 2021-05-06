@@ -2,7 +2,7 @@ package br.com.fuctura.projetosPessoais.AlunosAprovados;
 
 import br.com.fuctura.projetosPessoais.AprovadosInterfaces.*;
 
-public class Portuguese extends Disciplina implements ApprovedMorning {
+public class Portuguese extends Disciplina implements iApprovedMorning {
 
     public Portuguese(String nomeDaDisciplina, String turnoDasProvas) {
         super(nomeDaDisciplina, turnoDasProvas);

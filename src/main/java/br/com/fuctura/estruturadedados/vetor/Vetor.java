@@ -31,7 +31,7 @@ public class Vetor {
             this.elementos[this.tamanho] = elemento;
             this.tamanho++;
         } else {
-            
+
             throw new Exception("Vetor já está cheio não é possível adicionar mais elementos");
 
         }

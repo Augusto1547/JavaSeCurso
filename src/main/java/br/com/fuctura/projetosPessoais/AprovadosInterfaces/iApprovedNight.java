@@ -1,6 +1,6 @@
 package br.com.fuctura.projetosPessoais.AprovadosInterfaces;
 
-public interface ApprovedNight {
+public interface iApprovedNight {
 
     void aprovadosTurnoDaNoiteOitavaSerie();
 

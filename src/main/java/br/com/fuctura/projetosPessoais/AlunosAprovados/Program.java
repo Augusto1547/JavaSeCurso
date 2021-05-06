@@ -15,12 +15,13 @@ public class Program {
 
             System.out.println("Informe o turno");
             String turno = recebe.nextLine();
+            recebe.close();
 
             System.out.println();
             
             MatematicaTurnoManha aprovadosManha = new MatematicaTurnoManha(disciplina, turno);
-
-            aprovadosManha.mostrarAprovadosManha();
+            aprovadosManha.mostrarAprovadosManhaSalaA();
+            aprovadosManha.mostrarAprovadosManhaSalaB();
             
 
         } catch (Exception erro) {

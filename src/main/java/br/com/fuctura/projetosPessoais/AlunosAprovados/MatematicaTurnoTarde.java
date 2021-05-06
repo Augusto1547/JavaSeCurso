@@ -1,8 +1,8 @@
 package br.com.fuctura.projetosPessoais.AlunosAprovados;
 
-import br.com.fuctura.projetosPessoais.AprovadosInterfaces.ApprovedAfternoon;
+import br.com.fuctura.projetosPessoais.AprovadosInterfaces.iApprovedAfternoon;
 
-public class MatematicaTurnoTarde extends Disciplina implements ApprovedAfternoon {
+public class MatematicaTurnoTarde extends Disciplina implements iApprovedAfternoon {
 
     public MatematicaTurnoTarde(String nomeDaDisciplina, String turnoDasProvas) {
         super(nomeDaDisciplina, turnoDasProvas);
