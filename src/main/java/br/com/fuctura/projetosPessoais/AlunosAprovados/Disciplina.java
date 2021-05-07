@@ -11,9 +11,4 @@ public abstract class Disciplina {
         this.turnoDasProvas = turnoDasProvas;
     }
 
-    @Override
-    public String toString() {
-        return "Disciplina{" + "alunos=" + alunos + '}';
-    }
-
 }

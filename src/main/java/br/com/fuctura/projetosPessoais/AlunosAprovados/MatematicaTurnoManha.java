@@ -1,11 +1,8 @@
 package br.com.fuctura.projetosPessoais.AlunosAprovados;
 
-import br.com.fuctura.projetosPessoais.AprovadosInterfaces.iApprovedMorning;
-import br.com.fuctura.projetosPessoais.SalasB.SalaBTurnoManha;
+import br.com.fuctura.projetosPessoais.AprovadosInterfaces.iApprovedMorningA;
 
-public class MatematicaTurnoManha extends Disciplina implements iApprovedMorning {
-
-    SalaBTurnoManha salaB;
+public class MatematicaTurnoManha extends Disciplina implements iApprovedMorningA {
 
     public MatematicaTurnoManha(String nomeDaDisciplina, String turnoDasProvas) {
         super(nomeDaDisciplina, turnoDasProvas);
@@ -45,8 +42,8 @@ public class MatematicaTurnoManha extends Disciplina implements iApprovedMorning
             }
 
             System.out.println("\t\t ALUNOS APROVADOS PRIMEIRA SÉRIE B\n");
-            this.mostrarAprovadosManhaSalaBMatematica();
-
+            this.aprovadosTurnoDaManhaPrimeiraSerieA();
+           
         } else {
 
             System.out.println("Você digitou alguma informação errada");
@@ -54,9 +51,6 @@ public class MatematicaTurnoManha extends Disciplina implements iApprovedMorning
         System.out.println();
     }
 
-    public void mostrarAprovadosManhaSalaBMatematica() {
-
-    }
 
     //Primeira série
     @Override
@@ -229,9 +223,6 @@ public class MatematicaTurnoManha extends Disciplina implements iApprovedMorning
 
     }
 
-    public void mostrarAprovadosManhaSalaB() {
-
-        this.mostrarAprovadosManhaSalaBMatematica();
-    }
+   
 
 }
