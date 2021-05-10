@@ -1,5 +1,5 @@
  
-package br.com.javase.poo.aulas.objectclasse;
+package br.com.fuctura.poo.objectclasse;
 
 
 public class Pessoa {

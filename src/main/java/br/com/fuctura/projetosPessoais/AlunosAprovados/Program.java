@@ -19,7 +19,8 @@ public class Program {
         MatematicaTurnoManha aprovadosManha = new MatematicaTurnoManha(disciplina, turno);
         aprovadosManha.mostrarAprovadosManhaSalaA();
         
-
+        Disciplina a = new Portuguese(disciplina, turno);
+        
     }
 
 }

@@ -13,6 +13,8 @@ public class testVetor2 {
         vetor.adiciona("Elemento 3");
         
         System.out.println(vetor.tamanho());
+        System.out.println(vetor.toString());
+   
     }
 
 }
