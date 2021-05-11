@@ -1,4 +1,4 @@
-package br.com.fuctura.projetosPessoais.AlunosAprovados;
+package br.com.fuctura.projetosPessoais.materiasEscolares;
 
 import br.com.fuctura.projetosPessoais.AprovadosInterfaces.iApprovedAfternoon;
 

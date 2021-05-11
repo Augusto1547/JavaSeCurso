@@ -1,23 +1,11 @@
-package br.com.fuctura.projetosPessoais.AlunosAprovados;
+package br.com.fuctura.projetosPessoais.materiasEscolares;
 
 import br.com.fuctura.projetosPessoais.AprovadosInterfaces.*;
 
-public class Portuguese extends Disciplina implements iApprovedMorningB, iApprovedMorningA{
+public class Portuguese extends Disciplina implements iApprovedMorningA{
 
     public Portuguese(String nomeDaDisciplina, String turnoDasProvas) {
         super(nomeDaDisciplina, turnoDasProvas);
-    }
-
-    @Override
-    public void aprovadosTurnoDaManhaPrimeiraSerieB() {
-        System.out.println("vai tomar no cu");
-    }
-
-    @Override
-    public void mostrarAprovadosManhaSalaB() {
-
-        this.aprovadosTurnoDaManhaPrimeiraSerieB();
-
     }
 
     @Override
@@ -51,5 +39,4 @@ public class Portuguese extends Disciplina implements iApprovedMorningB, iApprov
     }
 
    
-
 }
