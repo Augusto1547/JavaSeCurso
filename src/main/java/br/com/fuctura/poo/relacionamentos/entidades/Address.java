@@ -1,4 +1,4 @@
-package br.com.javase.poo.aulas.relacionamentos.entidades;
+package br.com.fuctura.poo.relacionamentos.entidades;
 
 public class Address {
 
@@ -8,6 +8,10 @@ public class Address {
     private String city;
 
     Address(String rua_70, String string, String maranguape_II, String paulista, String barraca_de_Ivonete) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    Address() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 

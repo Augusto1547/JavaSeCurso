@@ -1,4 +1,4 @@
-package br.com.javase.poo.aulas.relacionamentos.entidades;
+package br.com.fuctura.poo.relacionamentos.entidades;
 //Associação e associação derivada
 //Agregação simples ou agregação(o todo é destruído mas as partes existe)
 

@@ -13,14 +13,14 @@ public class Program {
 
         System.out.println("Informe o turno");
         String turno = recebe.nextLine();
+        recebe.close();
+
         System.out.println();
 
-        MatematicaTurnoManha primeiraSerManhaMatematicaA = new MatematicaTurnoManha(disciplina, turno);
-        primeiraSerManhaMatematicaA.mostrarAprovadosManhaSalaA();
+        MatematicaTurnoManha mostrarPrimeiraSerieAManha = new MatematicaTurnoManha(disciplina, turno);
+        primeiraSerManhaMatematicaA.mostrarAprovadosManhaSalaA();//renomear
         MatematicaTurnoManha primeiraSerManhaMatematicaB = new MatematicaTurnoManha(disciplina, turno);
-        primeiraSerManhaMatematicaB.mostrarAprovadosManhaSalaB();
-        
-        Disciplina a = new Portuguese(disciplina, turno);
+        primeiraSerManhaMatematicaB.mostrarAprovadosManhaSalaB();//renomear
 
     }
 

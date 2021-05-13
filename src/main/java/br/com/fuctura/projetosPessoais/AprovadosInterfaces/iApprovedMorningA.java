@@ -3,7 +3,7 @@ package br.com.fuctura.projetosPessoais.AprovadosInterfaces;
 public interface iApprovedMorningA {
 
     void aprovadosTurnoDaManhaPrimeiraSerieA();
-
+   
     void aprovadosTurnoDaManhaSegundaSerieA();
 
     void aprovadosTurnoDaManhaTerceiraSerieA();
@@ -14,5 +14,5 @@ public interface iApprovedMorningA {
 
     void mostrarAprovadosManhaSalaA();
    
-
+   
 }

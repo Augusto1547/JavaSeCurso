@@ -5,7 +5,7 @@ final class StringMutavel {
 
     /*Essas duas classes possuem os mesmos conjuntos de métodos a única diferença
     é que os métodos da StringBuffer são sincronizados eles são muito úteis 
-    quando você está num ambiente multiprocessado trabalhando com váries tredes 
+    quando você está num ambiente multiprocessado trabalhando com várias tredes 
     acessando os mesmos obetos StringBuffers.  Já o StringBuilder não tem esses
     métodos sincronizados então ele não pode funcionar muito bem no momento em 
     que milhares de requisições ao mesmo objeto estão sendo feitas.

@@ -1,4 +1,4 @@
-package br.com.javase.poo.aulas.relacionamentos.entidades;
+package br.com.fuctura.poo.relacionamentos.entidades;
 
 public class Programa {
 
