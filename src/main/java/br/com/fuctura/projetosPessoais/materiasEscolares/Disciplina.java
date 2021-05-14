@@ -6,11 +6,13 @@ public abstract class Disciplina {
 
     String nomeDaDisciplina;
     String turnoDasProvas;
+    String serieDosAlunos;
     AprovadosMatematica aprovadosMatematica;
 
-    public Disciplina(String nomeDaDisciplina, String turnoDasProvas) {
+    public Disciplina(String nomeDaDisciplina, String turnoDasProvas, String serieDosAlunos) {
         this.nomeDaDisciplina = nomeDaDisciplina;
         this.turnoDasProvas = turnoDasProvas;
+        this.serieDosAlunos = serieDosAlunos;
     }
 
 }
