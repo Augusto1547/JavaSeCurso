@@ -3,14 +3,14 @@ package br.com.fuctura.intermediario.enumeradores;
 public class TestaEnum {
 
     public static void main(String[] args) {
-        
+
         usandoEnum();
     }
-    
-    public static void imprimirDiaDaSemana(DiaSemana dia){
-        
-        switch(dia){
-            
+
+    public static void imprimirDiaDaSemana(DiaSemana dia) {
+
+        switch (dia) {
+
             case SEGUNDA:
                 System.out.println("Segunda-feira");
                 break;
@@ -33,7 +33,7 @@ public class TestaEnum {
                 System.out.println("Domingo");
                 break;
         }
-        
+
     }
 
     private static void usandoEnum() {
@@ -45,9 +45,9 @@ public class TestaEnum {
         DiaSemana sexta = DiaSemana.SEXTA;
         DiaSemana sabado = DiaSemana.SABADO;
         DiaSemana domingo = DiaSemana.DOMINGO;
-        
+
         System.out.println("Teste utilizando enum no java");
-        
+
         imprimirDiaDaSemana(segunda);
         imprimirDiaDaSemana(terca);
         imprimirDiaDaSemana(quarta);

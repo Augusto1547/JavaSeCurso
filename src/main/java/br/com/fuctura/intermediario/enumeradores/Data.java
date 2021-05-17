@@ -49,6 +49,5 @@ public class Data {
     public void setDiaSemana(DiaSemana2 diaSemana) {
         this.diaSemana = diaSemana;
     }
-    
-    
+
 }

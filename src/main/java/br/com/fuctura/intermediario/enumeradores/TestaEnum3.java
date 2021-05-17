@@ -11,13 +11,13 @@ public class TestaEnum3 {
 
             System.out.println(dias[i]);
         }
-        
+
         System.out.println();
-        
-        for(DiaSemana2 dia : DiaSemana2.values()){
-            
-            System.out.println(dia);
-        }
+
+        /*for(DiaSemana2 dia : DiaSemana2.values()){
+            for melhorado
+             System.out.println(dia);
+        }*/
     }
 
 }
