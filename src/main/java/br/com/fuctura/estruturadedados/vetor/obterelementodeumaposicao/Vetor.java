@@ -1,13 +1,11 @@
-package br.com.fuctura.estruturadedados.vetor;
+package br.com.fuctura.estruturadedados.vetor.obterelementodeumaposicao;
 
-import java.util.Arrays;
-
-public class Vetor2 {
+public class Vetor {
 
     private String[] elementos;
     private int tamanho;
 
-    public Vetor2(int capacidade) {
+    public Vetor(int capacidade) {
 
         this.elementos = new String[capacidade];
         this.tamanho = 0;
@@ -23,7 +21,16 @@ public class Vetor2 {
         }
         return false;
     }
-    
+
+    //nova aula(Obter elemento de uma posição)
+    public String busca(int posicao) {
+
+        if (!(posicao >= 0 && posicao < tamanho)) {
+            throw new IllegalArgumentException("Posição inválida");
+        }
+        return this.elementos[posicao];
+    }
+
     public int tamanho() {//int por que atributo tamanho é int também
 
         return this.tamanho;
@@ -59,5 +66,4 @@ public class Vetor2 {
         s += "]";
          */
     }
-
 }
