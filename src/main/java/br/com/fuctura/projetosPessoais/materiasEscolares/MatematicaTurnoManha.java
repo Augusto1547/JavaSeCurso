@@ -1,7 +1,7 @@
 package br.com.fuctura.projetosPessoais.materiasEscolares;
 
 import br.com.fuctura.projetosPessoais.AprovadosInterfaces.*;
-import br.com.fuctura.projetosPessoais.aprovados.AprovadosMatematica;
+import br.com.fuctura.projetosPessoais.aprovados.AprovadosMatematicaManha;
 
 public class MatematicaTurnoManha extends Disciplina implements iApprovedMorningA {
 
@@ -12,16 +12,13 @@ public class MatematicaTurnoManha extends Disciplina implements iApprovedMorning
     @Override
     public void aprovadosTurnoDaManhaPrimeiraSerie() {
 
-        if ((super.nomeDaDisciplina.equals("matemática")
-                || super.nomeDaDisciplina.equals("Matemática"))
-                && (super.turnoDasProvas.equals("manhã")
-                || super.turnoDasProvas.equals("Manhã"))
-                && (super.serieDosAlunos.equals("primeira")
-                || super.nomeDaDisciplina.equals("Primeira"))) {
+        if ((super.nomeDaDisciplina.equalsIgnoreCase("matemática"))
+                && (super.turnoDasProvas.equalsIgnoreCase("manhã"))
+                && (super.serieDosAlunos.equalsIgnoreCase("primeira série"))) {
 
-            new AprovadosMatematica(nomeDaDisciplina, 0).mostrarPrimeiraSerieAManha();
-            new AprovadosMatematica(nomeDaDisciplina, 0).mostrarPrimeiraSerieBManha();
-            new AprovadosMatematica(nomeDaDisciplina, 0).mostrarPrimeiraSerieCManha();
+            new AprovadosMatematicaManha(nomeDaDisciplina, 0).mostrarPrimeiraSerieAManha();
+            new AprovadosMatematicaManha(nomeDaDisciplina, 0).mostrarPrimeiraSerieBManha();
+            new AprovadosMatematicaManha(nomeDaDisciplina, 0).mostrarPrimeiraSerieCManha();
             System.exit(0);
         }
 
@@ -30,16 +27,13 @@ public class MatematicaTurnoManha extends Disciplina implements iApprovedMorning
     //Primeira série manhã
     @Override
     public void aprovadosTurnoDaManhaSegundaSerie() {
-        if ((super.nomeDaDisciplina.equals("matemática")
-                || super.nomeDaDisciplina.equals("Matemática"))
-                && (super.turnoDasProvas.equals("manhã")
-                || super.turnoDasProvas.equals("Manhã"))
-                && (super.serieDosAlunos.equals("segunda")
-                || super.nomeDaDisciplina.equals("Segunda"))) {
+        if ((super.nomeDaDisciplina.equalsIgnoreCase("matemática"))
+                && (super.turnoDasProvas.equalsIgnoreCase("manhã"))
+                && (super.serieDosAlunos.equalsIgnoreCase("segunda série"))) {
 
-            new AprovadosMatematica(nomeDaDisciplina, 0).mostrarSegundaSerieAManha();
-            new AprovadosMatematica(nomeDaDisciplina, 0).mostrarSegundaSerieBManha();
-            new AprovadosMatematica(nomeDaDisciplina, 0).mostrarSegundaSerieCManha();
+            new AprovadosMatematicaManha(nomeDaDisciplina, 0).mostrarSegundaSerieAManha();
+            new AprovadosMatematicaManha(nomeDaDisciplina, 0).mostrarSegundaSerieBManha();
+            new AprovadosMatematicaManha(nomeDaDisciplina, 0).mostrarSegundaSerieCManha();
             System.exit(0);
         }
 
@@ -47,16 +41,13 @@ public class MatematicaTurnoManha extends Disciplina implements iApprovedMorning
 
     @Override
     public void aprovadosTurnoDaManhaTerceiraSerie() {
-        if ((super.nomeDaDisciplina.equals("matemática")
-                || super.nomeDaDisciplina.equals("Matemática"))
-                && (super.turnoDasProvas.equals("manhã")
-                || super.turnoDasProvas.equals("Manhã"))
-                && (super.serieDosAlunos.equals("terceira")
-                || super.nomeDaDisciplina.equals("Terceira")))  {
+        if ((super.nomeDaDisciplina.equalsIgnoreCase("matemática"))
+                && (super.turnoDasProvas.equalsIgnoreCase("manhã"))
+                && (super.serieDosAlunos.equalsIgnoreCase("terceira série"))) {
 
-            new AprovadosMatematica(nomeDaDisciplina, 0).mostrarTerceiraSerieAManha();
-            new AprovadosMatematica(nomeDaDisciplina, 0).mostrarTerceiraSerieBManha();
-            new AprovadosMatematica(nomeDaDisciplina, 0).mostrarTerceiraSerieCManha();
+            new AprovadosMatematicaManha(nomeDaDisciplina, 0).mostrarTerceiraSerieAManha();
+            new AprovadosMatematicaManha(nomeDaDisciplina, 0).mostrarTerceiraSerieBManha();
+            new AprovadosMatematicaManha(nomeDaDisciplina, 0).mostrarTerceiraSerieCManha();
             System.exit(0);
         }
 
@@ -65,17 +56,14 @@ public class MatematicaTurnoManha extends Disciplina implements iApprovedMorning
     @Override
     public void aprovadosTurnoDaManhaQuartaSerie() {
 
-        if ((super.nomeDaDisciplina.equals("matemática")
-                || super.nomeDaDisciplina.equals("Matemática"))
-                && (super.turnoDasProvas.equals("manhã")
-                || super.turnoDasProvas.equals("Manhã"))
-                && (super.serieDosAlunos.equals("quarta")
-                || super.nomeDaDisciplina.equals("Quarta")))  {
+        if ((super.nomeDaDisciplina.equalsIgnoreCase("matemática"))
+                && (super.turnoDasProvas.equalsIgnoreCase("manhã"))
+                && (super.serieDosAlunos.equalsIgnoreCase("quarta série"))) {
 
-            new AprovadosMatematica(nomeDaDisciplina, 0).mostarQuartaSerieAManha();
-            new AprovadosMatematica(nomeDaDisciplina, 0).mostarQuartaSerieBManha();
-            new AprovadosMatematica(nomeDaDisciplina, 0).mostarQuartaSerieCManha();
-            new AprovadosMatematica(nomeDaDisciplina, 0).mostarQuartaSerieDManha();
+            new AprovadosMatematicaManha(nomeDaDisciplina, 0).mostarQuartaSerieAManha();
+            new AprovadosMatematicaManha(nomeDaDisciplina, 0).mostarQuartaSerieBManha();
+            new AprovadosMatematicaManha(nomeDaDisciplina, 0).mostarQuartaSerieCManha();
+            new AprovadosMatematicaManha(nomeDaDisciplina, 0).mostarQuartaSerieDManha();
             System.exit(0);
         }
 
@@ -84,20 +72,17 @@ public class MatematicaTurnoManha extends Disciplina implements iApprovedMorning
     @Override
     public void aprovadosTurnoDaManhaQuintaSerie() {
 
-        if ((super.nomeDaDisciplina.equals("matemática")
-                || super.nomeDaDisciplina.equals("Matemática"))
-                && (super.turnoDasProvas.equals("manhã")
-                || super.turnoDasProvas.equals("Manhã"))
-                && (super.serieDosAlunos.equals("quinta")
-                || super.nomeDaDisciplina.equals("Quinta")))  {
+        if ((super.nomeDaDisciplina.equalsIgnoreCase("matemática"))
+                && (super.turnoDasProvas.equalsIgnoreCase("manhã"))
+                && (super.serieDosAlunos.equalsIgnoreCase("quinta série"))) {
 
-            new AprovadosMatematica(nomeDaDisciplina, 0).mostrarQuintaSerieA();
-            new AprovadosMatematica(nomeDaDisciplina, 0).mostrarQuintaSerieB();
-            new AprovadosMatematica(nomeDaDisciplina, 0).mostrarQuintaSerieC();
+            new AprovadosMatematicaManha(nomeDaDisciplina, 0).mostrarQuintaSerieA();
+            new AprovadosMatematicaManha(nomeDaDisciplina, 0).mostrarQuintaSerieB();
+            new AprovadosMatematicaManha(nomeDaDisciplina, 0).mostrarQuintaSerieC();
 
         } else {
 
-            System.out.println("Matéria ou turno foi digitado errado.");
+            System.out.println("Erro! verifica se digitou algo errado ou deixou de adicionar acênto.");
         }
 
         System.exit(0);

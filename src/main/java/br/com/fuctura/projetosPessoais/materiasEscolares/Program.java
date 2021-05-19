@@ -20,9 +20,10 @@ public class Program {
 
         System.out.println();
 
-        MatematicaTurnoManha mostrarPrimeiraSerieAManha = new MatematicaTurnoManha(disciplina, turno, serie);
-        mostrarPrimeiraSerieAManha.mostrarAprovadosManha();
-
+        
+            MatematicaTurnoManha turnoDaManha = new MatematicaTurnoManha(disciplina, turno, serie);
+            turnoDaManha.mostrarAprovadosManha();
+             
     }
 
 }

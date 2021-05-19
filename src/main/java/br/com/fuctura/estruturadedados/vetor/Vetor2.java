@@ -1,7 +1,5 @@
 package br.com.fuctura.estruturadedados.vetor;
 
-import java.util.Arrays;
-
 public class Vetor2 {
 
     private String[] elementos;
