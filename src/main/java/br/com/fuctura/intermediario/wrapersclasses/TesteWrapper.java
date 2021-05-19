@@ -45,9 +45,12 @@ public class TesteWrapper {
         
         System.out.println(num9 == num13); //vai dar false por que dois objetos são comparados o o método equals
         
-        
     //As classes boolean e character extendem diretamente da classe Object e o resto
     //estendem indiretamente da classe Object e diretamente da classe Number(Float,Double,Byte,Short,Long,Integer)
+    
+        System.out.println(Double.MAX_VALUE);
+        System.out.println(Integer.TYPE);
+        System.out.println(Integer.SIZE);
     }
 
 }
