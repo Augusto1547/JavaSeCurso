@@ -1,5 +1,7 @@
 package br.com.fuctura.estruturadedados.vetor;
 
+import java.util.Scanner;
+
 public class testaVetor {
 
     public static void main(String[] args) {
@@ -7,8 +9,7 @@ public class testaVetor {
         /*Vetor vetor = new Vetor(5);
         vetor.adiciona("Elemento 1");
         vetor.adiciona("Elemento 2");*/
-       
-        /*Vetor vetor = new Vetor(2); //tem capacidade apenas para dois
+ /*Vetor vetor = new Vetor(2); //tem capacidade apenas para dois
         try {
 
             vetor.adiciona("Elemento 1");
@@ -19,7 +20,6 @@ public class testaVetor {
 
             ex.printStackTrace();
         }*/
-        
         Vetor vetor = new Vetor(3);
         System.out.println(vetor.adiciona("Elemento 1"));
         System.out.println(vetor.adiciona("Elemento 2"));

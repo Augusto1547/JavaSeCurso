@@ -1,16 +1,25 @@
-package br.com.fuctura.projetosPessoais.materiasEscolares;
+package br.com.fuctura.projetosPessoais.aprovados;
 
-import br.com.fuctura.projetosPessoais.AprovadosInterfaces.*;
+import br.com.fuctura.projetosPessoais.AprovadosInterfaces.iApprovedMorningA;
 
-public class PortuguesTurnoManha extends Disciplina implements iApprovedMorningA{
+public class MatematicaManhaAprovados extends Disciplina implements iApprovedMorningA {
 
-    public PortuguesTurnoManha(String nomeDaDisciplina, String turnoDasProvas, String serieDosAlunos) {
+    public MatematicaManhaAprovados(String nomeDaDisciplina, String turnoDasProvas, String serieDosAlunos) {
         super(nomeDaDisciplina, turnoDasProvas, serieDosAlunos);
+    }
+
+    public MatematicaManhaAprovados(String nomeDaDisciplina, String turnoDasProvas, String serieDosAlunos, AlunosAprovados alunosAprovados) {
+        super(nomeDaDisciplina, turnoDasProvas, serieDosAlunos, alunosAprovados);
     }
 
     @Override
     public void aprovadosTurnoDaManhaPrimeiraSerie() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+
+        MatematicaManhaAprovados manhab = new MatematicaManhaAprovados("matemática", "tarde", "sexta");
+        System.out.println(manhab.nomeDaDisciplina);
+
+        MatematicaManhaAprovados manhac = new MatematicaManhaAprovados("matemática", "manha", "quinta", new AlunosAprovados("josé", 8.6));
+        System.out.println(manhac.alunosAprovados.nota);
     }
 
     @Override
@@ -35,8 +44,8 @@ public class PortuguesTurnoManha extends Disciplina implements iApprovedMorningA
 
     @Override
     public void mostrarAprovadosManha() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+
+        this.aprovadosTurnoDaManhaPrimeiraSerie();
     }
 
-    
 }

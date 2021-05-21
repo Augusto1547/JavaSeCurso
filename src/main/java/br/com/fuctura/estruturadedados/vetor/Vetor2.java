@@ -21,7 +21,7 @@ public class Vetor2 {
         }
         return false;
     }
-    
+
     public int tamanho() {//int por que atributo tamanho é int também
 
         return this.tamanho;
@@ -33,7 +33,7 @@ public class Vetor2 {
 
         StringBuilder s = new StringBuilder();
         s.append("[");
-
+         
         for (int i = 0; i < this.tamanho - 1; i++) {
             s.append(this.elementos[i]);
             s.append(",");

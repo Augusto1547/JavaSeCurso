@@ -1,16 +1,16 @@
 package br.com.fuctura.projetosPessoais.aprovados;
 
-public class AprovadosMatematicaManha {
+public class AlunosAprovados {
 
     public String nomeAluno;
     public double nota;
 
-    public AprovadosMatematicaManha(String nomeAluno, double nota) {
+    public AlunosAprovados(String nomeAluno, double nota) {
         this.nomeAluno = nomeAluno;
         this.nota = nota;
     }
 
-    public void mostrarPrimeiraSerieAManha() {
+    /*public void mostrarPrimeiraSerieAManha() {
 
         System.out.println("\t \t ALUNOS APROVADOS PRIMEIRA SÉRIE A  \n");
 
@@ -501,7 +501,7 @@ public class AprovadosMatematicaManha {
 
         }
         System.out.println();
-    }
+    }*/
 }
 //Aprovados matematica QUARTA QUINTA 
 
