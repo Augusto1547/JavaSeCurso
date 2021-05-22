@@ -1,7 +1,5 @@
 package br.com.fuctura.extras.cursoJavaSabado;
 
-import java.util.Scanner;
-
 public class PrimeiraAula {
 
 	public static void main(String[] args) {
@@ -25,50 +23,15 @@ public class PrimeiraAula {
 		 * Control + shift [ (Divide a mesma classe em duas janelas lado a lado)
 		 * Control + 1 (janela para excluir funções variáveis e outros recursos)
 		 * Control + 1 (volta para o local que estava trabalhando antes)
-		 * 
-		 * */
+		 * control + d (exclui linha)
+		 * control + m (janela lateral)
+		 * control + f11 (exibir a saída do programa)
+		 * alt + f11 (expandir o tamnho da janela)
+		 * windows > showviews > templates (criar um alias)
+		 * */	
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	
-		
-		
-	}
-	
-	private static String exibirNome(){
-		
-	 System.out.println("Ola");
-		return "oi";
 	}
 
 }
