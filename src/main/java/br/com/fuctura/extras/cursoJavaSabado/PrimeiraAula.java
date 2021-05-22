@@ -7,6 +7,7 @@ public class PrimeiraAula {
 	public static void main(String[] args) {
 		
 		String nome = "Rodrigo";
+		String nome2 = "pedro";
 
 		System.out.println("Rodrigo");
 		
@@ -18,6 +19,11 @@ public class PrimeiraAula {
 		 * control + alt + pagedown (também navega entre as classes)
 		 * Alt + Shift + C (muda a assinatura do método);
 		 * Alt + shifit + A (seleciona e muda o nome de todos)
+		 * Alt + shift + r (renomeia a variável)
+		 * Control + Shift + x/y ( transforma o trecho selecionado em maiúscula ou menuscula)
+		 * Control + Shift + g (ver uma referência mais detalhada da classe, variável etc)
+		 * 
+		 * 
 		 * 
 		 * */
 		
