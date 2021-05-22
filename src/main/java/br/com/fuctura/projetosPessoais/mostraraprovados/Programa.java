@@ -4,7 +4,7 @@ public class Programa {
 
     public static void main(String[] args) {
 
-        /*Scanner recebe = new Scanner(System.in, "ISO-8859-1");
+        Scanner recebe = new Scanner(System.in, "ISO-8859-1");
 
         System.out.println("Informe à matéria");
         String disciplina = recebe.nextLine();
@@ -27,7 +27,7 @@ public class Programa {
             new AprovadosMatematicaManha(nomeDaDisciplina, 0).mostrarPrimeiraSerieCManha();
             System.exit(0);
             //AprovadosMatematicaManha matematicaManha = new AprovadosMatematicaManha(disciplina, turno, serie);
-        }*/
+        }
         
          
 
