@@ -22,8 +22,9 @@ public class PrimeiraAula {
 		 * Alt + shift + r (renomeia a variável)
 		 * Control + Shift + x/y ( transforma o trecho selecionado em maiúscula ou menuscula)
 		 * Control + Shift + g (ver uma referência mais detalhada da classe, variável etc)
-		 * 
-		 * 
+		 * Control + shift [ (Divide a mesma classe em duas janelas lado a lado)
+		 * Control + 1 (janela para excluir funções variáveis e outros recursos)
+		 * Control + 1 (volta para o local que estava trabalhando antes)
 		 * 
 		 * */
 		
