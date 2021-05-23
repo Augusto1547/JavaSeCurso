@@ -1,5 +1,5 @@
 package br.com.fuctura.extras;
-import br.com.javase.logica.aulas.Break_e_continue;
+// trabalhar aqui > import br.com.javase.logica.aulas.Break_e_continue;
 
 final class StringMutavel {
 
@@ -44,7 +44,7 @@ final class StringMutavel {
          System.out.println(cpf);
          
          StringBuilder s2 = new StringBuilder();
-         s2.append(new Break_e_continue()); //chamando à classe externa
+      //trabalhar aqui >   //s2.append(new Break_e_continue()); //chamando à classe externa
          System.out.println(s2);
          
          StringBuilder s3 = new StringBuilder("Certificação java");

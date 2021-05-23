@@ -1,4 +1,4 @@
-package br.com.javase.poo.aulas.MetodoComParametro;
+package br.com.fuctura.poo.MetodoComParametro;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

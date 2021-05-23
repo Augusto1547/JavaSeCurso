@@ -1,5 +1,5 @@
 
-package br.com.javase.poo.aulas.encapsulamento;
+package br.com.fuctura.poo.encapsulamento;
 
 import java.math.BigDecimal;
 

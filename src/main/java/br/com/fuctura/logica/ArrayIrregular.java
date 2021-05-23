@@ -1,3 +1,5 @@
+package br.com.fuctura.logica;
+
 
 import java.util.Scanner;
 

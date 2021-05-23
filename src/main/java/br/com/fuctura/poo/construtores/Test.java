@@ -1,4 +1,4 @@
-package br.com.javase.poo.aulas.construtores;
+package br.com.fuctura.poo.construtores;
 
 public class Test {
 

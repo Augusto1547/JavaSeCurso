@@ -1,5 +1,5 @@
 
-package br.com.javase.logica.aulas;
+package br.com.fuctura.logica;
 
 public class OperadoresLogicos {
     
@@ -8,7 +8,7 @@ public class OperadoresLogicos {
       operadores lógicos(opções(| ||, 
       
     */
-    
+    // & verifica os dois mesmo que o primeiro já tenha um erro
     public static void main(String[] args) {
         
        boolean one = false;

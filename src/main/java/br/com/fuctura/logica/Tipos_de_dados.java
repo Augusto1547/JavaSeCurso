@@ -1,4 +1,4 @@
-package br.com.javase.logica.aulas;
+package br.com.fuctura.logica;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
@@ -25,26 +25,35 @@ public class Tipos_de_dados {
         BigDecimal res2 = one.add(two);
         BigDecimal res3 = one.multiply(two);
         BigDecimal res4 = one.divide(new BigDecimal(2));
-
+        BigInteger bi = new BigInteger("839287399940059928838840008287373");
+       
         System.out.println("Substract: " + res);
         System.out.println("Somar " + res2);
         System.out.println("Multiplicar " + res3);
         System.out.println("Divisão " + res4);
-
+        System.out.println(bi);
         System.out.println("\n=======================================\n");
 
-        BigInteger bi = new BigInteger("839287399940059928838840008287373");
-        System.out.println(bi);
+       
+        
         
         //com.facebook.nomedoprojeto.pastaextrasequiser (.separa as pastas, tem que ser minúscula)
         char ans = 46;//lista de caracteres ascii
+        System.out.println(ans);
         char unicode = 0x378;
+        System.out.println(unicode);
         long creditCard = 3492_234;//underscor
+        System.out.println(creditCard);
         int ex = 032; //exadecimal
+        System.out.println(ex);
         int oct = 0x116; //octal
+        System.out.println(oct);
         int bin = 0b011101; //binário
+        System.out.println(bin);
         int oi = (int)3894;
+        System.out.println(oi);
         long ola =  (long)387399888;
+        System.out.println(ola);
         
         System.out.println("\"hellow world\"");
         System.out.println("1\\4");

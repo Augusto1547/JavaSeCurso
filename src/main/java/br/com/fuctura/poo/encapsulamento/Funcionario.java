@@ -1,4 +1,4 @@
-package br.com.javase.poo.aulas.encapsulamento;
+package br.com.fuctura.poo.encapsulamento;
 
 public class Funcionario {
     //pergunta: a variavel nome pode ser acessada e alterada por qualquer um?

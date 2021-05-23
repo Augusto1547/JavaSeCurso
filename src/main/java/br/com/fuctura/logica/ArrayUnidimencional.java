@@ -1,4 +1,4 @@
-package br.com.javase.logica.aulas;
+package br.com.fuctura.logica;
 
 public class ArrayUnidimencional {
 //Definition(quadrados) - practice(two forms) - foreach(diferente, iguais)

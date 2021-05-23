@@ -1,4 +1,4 @@
-package br.com.javase.poo.aulas.sobrecargaDeMetodos;
+package br.com.fuctura.poo.sobrecargaDeMetodos;
 //conversão implícita e conversão explícita 
 
 public class Matematica {

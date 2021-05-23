@@ -1,4 +1,4 @@
-package br.com.javase.poo.aulas.variaveisMetodosStaticos;
+package br.com.fuctura.poo.variaveisMetodosStaticos;
 
 public class Maquina {
 

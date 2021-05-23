@@ -1,6 +1,6 @@
-package br.com.fuctura.extras.cursoJavaSabado;
+package br.com.fuctura.extras;
 
-public class PrimeiraAula {
+public class Atalhos {
 
 	public static void main(String[] args) {
 		
@@ -10,6 +10,8 @@ public class PrimeiraAula {
 		System.out.println("Rodrigo");
 		
 		/*
+		 * Ir para Preferences> Java> Editor> Content Assiste escrever .abcdefghijklmnopqrstuvwxyzno Auto activation triggers for Javacampo.
+		 * (para ativar as opções ampliadas de código)
 		 * CTRL + Shift + O (importa o pacote)
 		 * contrl + shift + f (identa o código)
 		 * control + 3 (procura recursos)
@@ -22,7 +24,6 @@ public class PrimeiraAula {
 		 * Control + Shift + g (ver uma referência mais detalhada da classe, variável etc)
 		 * Control + shift [ (Divide a mesma classe em duas janelas lado a lado)
 		 * Control + 1 (janela para excluir funções variáveis e outros recursos)
-		 * Control + 1 (volta para o local que estava trabalhando antes)
 		 * control + d (exclui linha)
 		 * control + m (janela lateral)
 		 * control + f11 (exibir a saída do programa)
@@ -30,8 +31,7 @@ public class PrimeiraAula {
 		 * windows > showviews > templates (criar um alias)
 		 * */	
 		
-		
-		
+				
 	}
 
 }

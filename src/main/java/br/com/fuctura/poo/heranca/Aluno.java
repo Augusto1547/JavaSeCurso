@@ -1,4 +1,4 @@
-package br.com.javase.poo.aulas.heranca;
+package br.com.fuctura.poo.heranca;
 
 public class Aluno extends Pessoa {
 

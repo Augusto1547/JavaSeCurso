@@ -2,7 +2,8 @@ package br.com.fuctura.intermediario.staticimport;
 
 import static java.lang.Math.pow;
 import static java.lang.Math.sqrt;
-//import static java.lang.Math.*;//isso não é muito utilizado fica mais elegante o de cima
+//import static java.lang.Math.*;
+//isso não é muito utilizado fica mais elegante o de cima
 
 public class StaticImport {
 

@@ -1,4 +1,4 @@
-package br.com.javase.poo.aulas.indroducao;
+package br.com.fuctura.poo.indroducao;
 
 
 public class Fiat extends Carro{

@@ -1,4 +1,4 @@
-package br.com.javase.poo.aulas.ClassesEMetodosComRetorno;
+package br.com.fuctura.poo.ClassesEMetodosComRetorno;
 
 import java.math.BigDecimal;
 import java.util.Scanner;

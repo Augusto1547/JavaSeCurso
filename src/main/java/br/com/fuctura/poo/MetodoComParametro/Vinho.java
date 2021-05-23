@@ -1,4 +1,4 @@
-package br.com.javase.poo.aulas.MetodoComParametro;
+package br.com.fuctura.poo.MetodoComParametro;
 
 public class Vinho extends Produto {//se vinho fosse abstrata metodo seria abstrato
     //e carreteiro sobrescreveria de vinho

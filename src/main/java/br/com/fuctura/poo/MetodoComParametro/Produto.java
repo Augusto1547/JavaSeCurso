@@ -1,5 +1,5 @@
 //parâmetro ou argumento
-package br.com.javase.poo.aulas.MetodoComParametro;
+package br.com.fuctura.poo.MetodoComParametro;
 
 public abstract class Produto {//objeto do tipo café mas não objeto do tipo objeto
 

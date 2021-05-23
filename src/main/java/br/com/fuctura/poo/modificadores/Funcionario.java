@@ -1,5 +1,5 @@
 
-package br.com.javase.poo.aulas.modificadores;
+package br.com.fuctura.poo.modificadores;
 
 public class Funcionario {
     

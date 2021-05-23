@@ -1,4 +1,4 @@
-package br.com.javase.poo.aulas.superclasses;
+package br.com.fuctura.poo.superclasses;
 
 public abstract class Animal {
 

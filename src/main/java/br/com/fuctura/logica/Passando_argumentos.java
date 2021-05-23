@@ -1,5 +1,5 @@
 
-package br.com.javase.logica.aulas;
+package br.com.fuctura.logica;
 
 public class Passando_argumentos {
     

@@ -1,4 +1,4 @@
-package br.com.javase.logica.aulas;
+package br.com.fuctura.logica;
 
 import java.util.Scanner;
 

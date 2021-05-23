@@ -1,4 +1,4 @@
-package br.com.javase.poo.aulas.recursividade;
+package br.com.fuctura.poo.recursividade;
 
 public class Recursividade {
 
