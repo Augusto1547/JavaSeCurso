@@ -9,7 +9,9 @@ public class Atalhos {
 	public static void main(String[] args) {
 
 		String nome = "Rodrigo";
-
+		
+        System.out.println();
+        
 		// @formatter:off
 		       String nome2 = "pedro";
 		// @formatter:on
@@ -35,9 +37,9 @@ public class Atalhos {
 		 * programa) alt + f11 (expandir o tamnho da janela) windows > showviews >
 		 * templates (criar um alias)
 		 * alt + seta(cima,baixo) (vomer o trecho pela tela)
+		 * alt + shifit + r (mudei o nome da variável e automaticamente foi alterado em outras partes do código também)
 		 */
 
 	}
  
-	
 }

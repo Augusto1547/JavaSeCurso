@@ -3,7 +3,6 @@ package br.com.fuctura.logica;
 
 public class Estrutura_de_repeticao {
 
-
     public static void main(String[] args) {
         
         int idade = 0;
