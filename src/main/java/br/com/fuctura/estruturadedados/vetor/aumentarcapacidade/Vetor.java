@@ -12,7 +12,8 @@ public class Vetor {
     }
 
     public boolean adiciona(String elemento) {
-        this.aumentaCapacidade();
+        
+    	this.aumentaCapacidade();
 
         if (this.tamanho < elementos.length) {
 
@@ -50,11 +51,13 @@ public class Vetor {
 
             String[] elementosNovos = new String[this.elementos.length * 2];
 
-            for (int i = 0; i < this.elementos.length; i++) {
+            for (int i = 0; i < this.tamanho; i++) { // ou this.elementos.lenght
 
                 elementosNovos[i] = this.elementos[i];
             }
+            
             this.elementos = elementosNovos;
+            //ao terminar o progama pode dar um debug se quiser analisar melhor
         }
     }
 

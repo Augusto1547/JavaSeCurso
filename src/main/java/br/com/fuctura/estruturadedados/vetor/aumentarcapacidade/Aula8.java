@@ -12,6 +12,7 @@ public class Aula8 {
         vetor.adiciona("F");
         vetor.adiciona("G");
         vetor.adiciona("H");
+        vetor.adiciona("I");
         
         System.out.println(vetor);
 

@@ -1,7 +1,5 @@
 package br.com.fuctura.estruturadedados.vetor;
 
-import java.util.Scanner;
-
 public class testaVetor {
 
     public static void main(String[] args) {
