@@ -19,7 +19,10 @@ public class Atalhos {
 		mostrarNome(nome);
 
 		System.out.println("Rodrigo");
+		//JDBC e SQL com Oracle XE (https://www.youtube.com/watch?v=uVhftg1XV7s)
 		/*
+		 * https://www.youtube.com/watch?v=8c4fKVJInaQ (clonar e enviar um projeto para o github)
+		 * preferences > generals > editor > texteditor > spelling  > desabilitar o checkbox (remover os erros de ortografia)
 		 * windows > preferences > geral > key (para criar seu próprio atalho) ativar as
 		 * opções ampliadas de código) 
 		 * CTRL + Shift + O (importa o pacote)
@@ -35,6 +38,7 @@ public class Atalhos {
 		 * Control + m (janela lateral) 
 		 * Control + f11 (exibir a saída do console)
 		 * Control + / (adiciona ou remove um comentário de linha única)
+		 * Control + shift + / (adiciona comentário de bloco)
 		 * Control + shift + seta (início e fim do documento) entre as classes) 
 		 * Control + Shift + g (ver uma referência mais detalhada da classe, variável etc)
 		 * Control + shift + l (listar todos os atalhos do eclipse) 
@@ -43,6 +47,8 @@ public class Atalhos {
 		 * Control + shirf + r procura arquivos, ex: notas, também classes) 
 		 * Control + . ou , (navega em meus erros(amarelos ou vermelhos);
 		 * Control + n (criar uma nova classe ou arquivo, projeto etc)
+		 * Control + l (pesquisa a linha que você deseja)
+		 * Alt + setas d e es (navega entre os ultimos arquivos acessados e linhas)
 		 * Alt + Shift + C (muda a assinatura do método); 
 		 * Alt + shifit + A (seleciona e muda o nome de todos)
 		 * Alt + shift + r (renomeia a variável em todos os lugares) programa) 
@@ -53,7 +59,6 @@ public class Atalhos {
 		 * função e colocar o if dentro)
 		 * Alt + shift + x depois b (abilita uma aplicação spring boot)
 		 */
-
 	}
 
 	public static void mostrarNome(String nome) {
@@ -62,5 +67,7 @@ public class Atalhos {
 			System.out.println("olá rodriro");
 		}
 	}
+	
+	
 
 }

@@ -1,6 +1,5 @@
 
 package br.com.fuctura.logica;
-import java.math.BigInteger;
 import java.util.Scanner;
 
 public class Entrada_de_dados {
