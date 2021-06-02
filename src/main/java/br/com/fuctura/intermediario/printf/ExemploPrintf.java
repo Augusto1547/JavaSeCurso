@@ -34,7 +34,7 @@ public class ExemploPrintf {
 
 		System.out.printf("%n");
 
-		Integer valor1 = 31456789;
+		int valor1 = 31456789;
 		System.out.printf("%+d", valor1);
 		System.out.printf("%n");
 
@@ -51,7 +51,7 @@ public class ExemploPrintf {
 
 		int valor4 = 123456789;
 		System.out.printf("% d", valor4);
-
+        System.out.printf("%n");
 		/* ===================================== */
 		testeMaisCompleto();
 

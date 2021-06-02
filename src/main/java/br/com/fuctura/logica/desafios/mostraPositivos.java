@@ -1,5 +1,6 @@
 package br.com.fuctura.logica.desafios;
 
+//6:48
 import java.util.Scanner;
 
 public class mostraPositivos {
@@ -26,23 +27,17 @@ public class mostraPositivos {
 		System.out.println("Valor 6");
 		int v6 = recebe.nextInt();
 
-		int[] recebeValores = new int[] { v1, v2, v3, v4, v5, v6 };
+		int[] recebeValores = new int[6];
+		
+		recebeValores[0] = v1;
+		recebeValores[1] = v2;
+		recebeValores[2] = v3;
+		recebeValores[3] = v4;
+		recebeValores[4] = v5;
+		recebeValores[5] = v6;
+		
+		
 
-		for (int i = 0; i < recebeValores.length; i++) {
-
-			if (!(recebeValores[i] == 0)) {
-
-				if (recebeValores[i] % 2 == 0) {
-
-					System.out.println(recebeValores[i] + " Valores");
-
-				}
-				
-			} else {
-
-				System.out.println("valores impares ou vazios");
-			}
-		}
 	}
 
 }

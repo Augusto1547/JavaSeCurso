@@ -1,15 +1,23 @@
 package br.com.fuctura.projetospessoais.aprovados.imprimiraprovados;
 
-import br.com.fuctura.projetospessoais.aprovados.turnomanha.PrimeiraSerieA;
+import java.util.Scanner;
+
+import br.com.fuctura.projetospessoais.aprovados.escola.SalaDeAula;
 
 public class TodosAprovados {
 
 	public static void main(String[] args) {
 
-		PrimeiraSerieA ola = new PrimeiraSerieA();
+		try {
 
-		ola.acessarAprovados();
-	
+			
+			
+			
+		} catch (Exception e) {
+
+			System.out.println("Mensagem de erro : " + e);
+		}
+
 	}
 
 }

@@ -1,19 +1,8 @@
 package br.com.fuctura.projetospessoais.aprovados.turnomanha;
 
-import br.com.fuctura.projetospessoais.aprovados.escola.Sala;
-import br.com.fuctura.projetospessoais.aprovados.materias.Matematica;
+import br.com.fuctura.projetospessoais.aprovados.escola.SalaDeAula;
 
-public class PrimeiraSerieA extends Sala {
+public class PrimeiraSerieA extends SalaDeAula {
 
-	public void mostrarAprovadosMatematica() {
-
-		Matematica oi = new Matematica();
-		oi.aprovados();
-	}
-
-	public void acessarAprovados() {
-
-		this.mostrarAprovadosMatematica();
-	}
-
+	
 }
