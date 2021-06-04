@@ -1,9 +1,11 @@
 package br.com.fuctura.extras;
 
-public class For {
+import java.nio.file.Path;
+
+public class Arquivo {
 
 	public static void main(String[] args) {
-		
-		
+
 	}
+
 }

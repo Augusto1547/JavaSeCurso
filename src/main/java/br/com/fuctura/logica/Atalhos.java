@@ -1,4 +1,4 @@
-package br.com.fuctura.extras;
+package br.com.fuctura.logica;
 
 public class Atalhos {
 //no google: eclipse color theme

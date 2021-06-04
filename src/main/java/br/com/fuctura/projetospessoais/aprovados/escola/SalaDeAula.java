@@ -1,6 +1,6 @@
 package br.com.fuctura.projetospessoais.aprovados.escola;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class SalaDeAula {
 
@@ -11,8 +11,6 @@ public class SalaDeAula {
 	private String idSala;
 
 	public AlunosAprovados alunosAprovados;
-
-	 
 
 	public String getInstrutor() {
 		return instrutor;
@@ -30,7 +28,8 @@ public class SalaDeAula {
 
 		} else {
 
-			System.out.printf("Erro! %s", "Este professor não existe neste escola.");
+			System.out.printf("Mistake! %s %n", "Dont't exist this teacher on school");
+			System.exit(0);
 		}
 	}
 
@@ -50,7 +49,8 @@ public class SalaDeAula {
 
 		} else {
 
-			System.out.printf("Erro! %s", "Esta matéria não existe nesta escola.");
+			System.out.printf("Mistake!! %s %n", "This matéria not existe on school");
+			System.exit(0);
 		}
 	}
 
@@ -59,7 +59,20 @@ public class SalaDeAula {
 	}
 
 	public void setSerie(String serie) {
-		this.serie = serie;
+		if (serie.equalsIgnoreCase("primeira") || serie.equalsIgnoreCase("segunda")
+				|| serie.equalsIgnoreCase("terceira") || serie.equalsIgnoreCase("quarta")
+				|| serie.equalsIgnoreCase("quinta") || serie.equalsIgnoreCase("sexta")
+				|| serie.equalsIgnoreCase("sétima") || serie.equalsIgnoreCase("oitava")
+				|| serie.equalsIgnoreCase("primeiro") || serie.equalsIgnoreCase("segundo")
+				|| serie.equalsIgnoreCase("terceiro")) {
+
+			this.serie = serie;
+
+		} else {
+
+			System.out.printf("Mistake! %s %n", "This série not exit on school");
+			System.exit(0);
+		}
 	}
 
 	public String getTurno() {
@@ -74,7 +87,8 @@ public class SalaDeAula {
 
 		} else {
 
-			System.out.printf("Erro! %s", "Este turno não existe neste escola.");
+			System.out.printf("Mistake!! %s %n", "This turno not exist.");
+			System.exit(0);
 		}
 	}
 
@@ -90,26 +104,43 @@ public class SalaDeAula {
 
 		} else {
 
-			System.out.printf("Erro! %s", "Somente letra a ou b minúscula ou maiúscula");
+			System.out.printf("Mistake!! %s %n", "This letter not exist tente a or b");
+			System.exit(0);
 		}
 	}
-
+/*
 	public static void main(String[] args) {
-		
+
 		SalaDeAula oi = new SalaDeAula();
 		Scanner recebe = new Scanner(System.in);
- 
+
 		System.out.println("diga o professor");
 		String professor = recebe.nextLine();
 		oi.setInstrutor(professor);
-		System.out.println("Diga a máteria");
+
+		System.out.println("Diga à matéria");
 		String materia = recebe.nextLine();
 		oi.setMateria(materia);
-		
-		
-		if(professor == "joão" && materia == "matemática") {
-			
-			System.out.printf("%s",oi.getInstrutor());
+
+		System.out.println("diga à série");
+		String serie = recebe.nextLine();
+		oi.setSerie(serie);
+
+		System.out.println("Qual é a sala");
+		String sala = recebe.nextLine();
+		oi.setIdSala(sala);
+
+		System.out.println("Diga o turno");
+		String turno = recebe.nextLine();
+		oi.setTurno(turno);
+
+		if (professor.equalsIgnoreCase("joão") || materia.equalsIgnoreCase("matemática")
+				|| serie.equalsIgnoreCase("primeira") || turno.equalsIgnoreCase("manhã")
+				|| sala.equalsIgnoreCase("a")) {
+
+			System.out.printf("Nome : %s Nota : %-10.2f", "Augusto César dos Santos", 9.9);
 		}
+
 	}
+	*/
 }

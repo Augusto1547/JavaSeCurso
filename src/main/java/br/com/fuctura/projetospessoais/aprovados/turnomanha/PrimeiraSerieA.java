@@ -4,5 +4,5 @@ import br.com.fuctura.projetospessoais.aprovados.escola.SalaDeAula;
 
 public class PrimeiraSerieA extends SalaDeAula {
 
-	
+	 
 }

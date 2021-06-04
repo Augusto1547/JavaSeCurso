@@ -3,21 +3,16 @@ package br.com.fuctura.projetospessoais.aprovados.imprimiraprovados;
 import java.util.Scanner;
 
 import br.com.fuctura.projetospessoais.aprovados.escola.SalaDeAula;
+import br.com.fuctura.projetospessoais.aprovados.turnomanha.PrimeiraSerieA;
 
 public class TodosAprovados {
 
 	public static void main(String[] args) {
 
-		try {
+		SalaDeAula primeiraSerieA = new SalaDeAula();
 
-			
-			
-			
-		} catch (Exception e) {
-
-			System.out.println("Mensagem de erro : " + e);
-		}
-
+		
+		
 	}
 
 }
