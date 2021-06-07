@@ -1,6 +1,7 @@
 package br.com.fuctura.intermediario.classesaninhadas;
-//É utilizado muito com colections do java mas pode usar em outros cenários
 
+//É utilizado muito com colections do java mas pode usar em outros cenários
+// 07: 29
 public class Anonima {
 
 	public void imprimeTexto() {
