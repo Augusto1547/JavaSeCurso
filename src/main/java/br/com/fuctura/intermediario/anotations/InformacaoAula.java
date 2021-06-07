@@ -11,3 +11,4 @@ public @interface InformacaoAula {
 
 	String site() default "http://loiane.training";
 }
+

@@ -1,7 +1,14 @@
 package br.com.fuctura.projetospessoais.aprovados.escola;
 
-//import java.util.Scanner;
+import br.com.fuctura.poo.sobrecargaDeMetodos.Matematica;
 
+@Cabecalho(
+//@formatter:off
+		autor = "Augusto",
+		dataCriacao = "05/06/2021",
+        projeto = "Sistema de análise de alunos aprovados"
+//@formatter:on
+)
 public class SalaDeAula {
 
 	private String instrutor;
@@ -11,6 +18,20 @@ public class SalaDeAula {
 	private String idSala;
 
 	public AlunosAprovados alunosAprovados;
+	public Matematica matematica;
+
+	public SalaDeAula() {
+		super();
+	}
+
+	public SalaDeAula(String instrutor, String materia, String serie, String turno, String idSala) {
+		super();
+		this.instrutor = instrutor;
+		this.materia = materia;
+		this.serie = serie;
+		this.turno = turno;
+		this.idSala = idSala;
+	}
 
 	public String getInstrutor() {
 		return instrutor;
@@ -59,12 +80,12 @@ public class SalaDeAula {
 	}
 
 	public void setSerie(String serie) {
-		if (serie.equalsIgnoreCase("primeira") || serie.equalsIgnoreCase("segunda")
-				|| serie.equalsIgnoreCase("terceira") || serie.equalsIgnoreCase("quarta")
-				|| serie.equalsIgnoreCase("quinta") || serie.equalsIgnoreCase("sexta")
-				|| serie.equalsIgnoreCase("sétima") || serie.equalsIgnoreCase("oitava")
-				|| serie.equalsIgnoreCase("primeiro") || serie.equalsIgnoreCase("segundo")
-				|| serie.equalsIgnoreCase("terceiro")) {
+		if (serie.equalsIgnoreCase("primeira série") || serie.equalsIgnoreCase("segunda série")
+				|| serie.equalsIgnoreCase("terceira série") || serie.equalsIgnoreCase("quarta série")
+				|| serie.equalsIgnoreCase("quinta série") || serie.equalsIgnoreCase("sexta série")
+				|| serie.equalsIgnoreCase("sétima série") || serie.equalsIgnoreCase("oitava série")
+				|| serie.equalsIgnoreCase("primeiro ano") || serie.equalsIgnoreCase("segundo ano")
+				|| serie.equalsIgnoreCase("terceiro ano")) {
 
 			this.serie = serie;
 
@@ -108,39 +129,5 @@ public class SalaDeAula {
 			System.exit(0);
 		}
 	}
-/*
-	public static void main(String[] args) {
 
-		SalaDeAula oi = new SalaDeAula();
-		Scanner recebe = new Scanner(System.in);
-
-		System.out.println("diga o professor");
-		String professor = recebe.nextLine();
-		oi.setInstrutor(professor);
-
-		System.out.println("Diga à matéria");
-		String materia = recebe.nextLine();
-		oi.setMateria(materia);
-
-		System.out.println("diga à série");
-		String serie = recebe.nextLine();
-		oi.setSerie(serie);
-
-		System.out.println("Qual é a sala");
-		String sala = recebe.nextLine();
-		oi.setIdSala(sala);
-
-		System.out.println("Diga o turno");
-		String turno = recebe.nextLine();
-		oi.setTurno(turno);
-
-		if (professor.equalsIgnoreCase("joão") || materia.equalsIgnoreCase("matemática")
-				|| serie.equalsIgnoreCase("primeira") || turno.equalsIgnoreCase("manhã")
-				|| sala.equalsIgnoreCase("a")) {
-
-			System.out.printf("Nome : %s Nota : %-10.2f", "Augusto César dos Santos", 9.9);
-		}
-
-	}
-	*/
 }

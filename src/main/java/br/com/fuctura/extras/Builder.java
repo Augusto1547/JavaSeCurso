@@ -20,7 +20,6 @@ public class Builder {
         con.append("Idade :").append(oi.idade);
 
         System.out.println(con.toString());
-        
     }
 
 }

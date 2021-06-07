@@ -35,7 +35,6 @@ public class Atalhos {
 		 * Control + 1 (sugere alguma alternativa para a solução de um erro) 
 		 * Control + 3 (ggas(gets e sets), ghcae(iquals e rache code), gcuf (construtores))
 		 * Control + d (deleta uma linha) 
-		 * Control + m (janela lateral) 
 		 * Control + f11 (exibir a saída do console)
 		 * Control + / (adiciona ou remove um comentário de linha única)
 		 * Control + shift + / (adiciona comentário de bloco)
@@ -55,13 +54,14 @@ public class Atalhos {
 		 * Alt + f11 (expandir o tamnho da janela) 
 		 * Windows > showviews > templates (criar um alias) 
 		 * Alt + seta(cima,baixo) (vomer o trecho pela tela) 
+		 * Control + m (janela lateral) 
 		 * Alt + shift + m (seleciona o if e da o comando para criar uma
 		 * função e colocar o if dentro)
 		 * Alt + shift + x depois b (abilita uma aplicação spring boot)
 		 */
 	}
-
 	public static void mostrarNome(String nome) {
+
 		if (nome == "rodrigo") {
 
 			System.out.println("olá rodriro");
