@@ -27,7 +27,8 @@ public class Atalhos {
 		 * opções ampliadas de código) 
 		 * CTRL + Shift + O (importa o pacote)
 		 * Control + o (abre janela para navegar entre os métodos da classe);
-		 * Contrl + shift + f (identa o código) 
+		 * Control + shift + f (identa o código) 
+		 * Control + a e depois letra i( para identar código)
 		 * Control + e (navega entre as classes criadas)
 		 * Control + Shift + x/y ( transforma o trecho selecionado em maiúscula ou
 		 * Control + f (localizar e substituir) 
