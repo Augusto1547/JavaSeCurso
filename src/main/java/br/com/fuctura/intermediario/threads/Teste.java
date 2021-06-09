@@ -10,9 +10,12 @@ public class Teste {
 		MinhaThread thread2 = new MinhaThread("Thread #2", 900);
 
 		MinhaThread thread3 = new MinhaThread("Thread #3", 900);
-		//com isso acabamos de executar três tarefas ao mesmo tempo em nosso progama só que cada tarefa tem seu
-		próprio passo. nesse progama temos uma thred que faz a mesma tarefa mas você poderia ter várias threds
-		que executam várias tarefas diferentes em seu próprio tempo diferente também
+		/*
+		 * com isso acabamos de executar três tarefas ao mesmo tempo em nosso progama só
+		 * que cada tarefa tem seu próprio passo. nesse progama temos uma thred que faz
+		 * a mesma tarefa mas você poderia ter várias threds que executam várias tarefas
+		 * diferentes em seu próprio tempo diferente também
+		 */
 	}
 	/*
 	 * Executar duas ou mais tarefas ao mesmo tempo é o que nós chamamos de threads
