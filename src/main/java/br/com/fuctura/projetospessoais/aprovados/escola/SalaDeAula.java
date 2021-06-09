@@ -6,16 +6,16 @@ import br.com.fuctura.poo.sobrecargaDeMetodos.Matematica;
 //@formatter:off
 		autor = "Augusto",
 		dataCriacao = "05/06/2021",
-        projeto = "Sistema de análise de alunos aprovados"
+        projeto = "Sistema de mostragem de alunos aprovados"
 //@formatter:on
 )
-public class SalaDeAula {
+public abstract class SalaDeAula {
 
 	private String instrutor;
 	private String materia;
 	private String serie;
-	private String turno;
 	private String idSala;
+	private String turno;
 
 	public AlunosAprovados alunosAprovados;
 	public Matematica matematica;

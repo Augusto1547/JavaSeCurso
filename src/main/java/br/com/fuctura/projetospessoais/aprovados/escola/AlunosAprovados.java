@@ -1,10 +1,13 @@
 package br.com.fuctura.projetospessoais.aprovados.escola;
 
-
 public class AlunosAprovados {
 
 	String nomeAlunos;
 	Double notaAlunos;
+
+	public AlunosAprovados() {
+		super();
+	}
 
 	public AlunosAprovados(String nomeAlunos, Double notaAlunos) {
 		super();

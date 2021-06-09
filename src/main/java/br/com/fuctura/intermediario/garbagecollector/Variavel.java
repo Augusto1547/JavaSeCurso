@@ -8,7 +8,6 @@ public class Variavel {
 		int x = 7;
 		x = 9;
 		System.out.println(x);
-		// Variável de referência
 
 //		nove vai substituir e ocupar o mesmo espaço na memória que 7
 

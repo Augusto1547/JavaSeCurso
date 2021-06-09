@@ -1,6 +1,6 @@
 package br.com.fuctura.logica.desafios;
 
-public @interface ErrosCorrigidos {
+public @interface QuantidadeErros {
 
 	String[] erros();
 }

@@ -26,6 +26,7 @@ public class Atalhos {
 		 * windows > preferences > geral > key (para criar seu próprio atalho) ativar as
 		 * opções ampliadas de código) 
 		 * CTRL + Shift + O (importa o pacote)
+		 * Control + o (abre janela para navegar entre os métodos da classe);
 		 * Contrl + shift + f (identa o código) 
 		 * Control + e (navega entre as classes criadas)
 		 * Control + Shift + x/y ( transforma o trecho selecionado em maiúscula ou

@@ -14,7 +14,7 @@ import java.util.Scanner;
 //@formatter:on	
 )
 
-@ErrosCorrigidos(erros = { "0001", "0002" })
+@QuantidadeErros(erros = { "0001", "0002" })
 
 public class AulaFuctura1 {
 

@@ -1,8 +1,21 @@
 package br.com.fuctura.logica.desafios;
 
-//06:52
+//07:17
 import java.util.Scanner;
 
+@Cabecalho(
+		
+//		@formatter:off
+		instituicao = "Fuctura tecnologia",
+		projeto = "lógica de progamação", 
+		dataCriacao = "5/jun/2021", 
+		numeroErros = 0,
+		autor = "Fernando Santos"
+//		@formatter:on
+
+)
+
+@QuantidadeErros(erros = { "0001", "0002" })
 public class mostraPositivos {
 
 	public static void main(String[] args) {
@@ -10,24 +23,24 @@ public class mostraPositivos {
 		Scanner recebe = new Scanner(System.in);
 
 		System.out.println("Valor 1");
-		int v1 = recebe.nextInt();
+		Integer v1 = recebe.nextInt();
 
 		System.out.println("Valor 2");
-		int v2 = recebe.nextInt();
+		Integer v2 = recebe.nextInt();
 
 		System.out.println("Valor 3");
-		int v3 = recebe.nextInt();
+		Integer v3 = recebe.nextInt();
 
 		System.out.println("Valor 4");
-		int v4 = recebe.nextInt();
+		Integer v4 = recebe.nextInt();
 
 		System.out.println("Valor 5");
-		int v5 = recebe.nextInt();
+		Integer v5 = recebe.nextInt();
 
 		System.out.println("Valor 6");
-		int v6 = recebe.nextInt();
+		Integer v6 = recebe.nextInt();
 
-		int[] recebeValores = new int[6];
+		Integer[] recebeValores = new Integer[6];
 
 		recebeValores[0] = v1;
 		recebeValores[1] = v2;
@@ -38,13 +51,15 @@ public class mostraPositivos {
 
 		for (int i = 0; i < recebeValores.length; i++) {
 
-			if (recebeValores[i] == 0) {
+			if (recebeValores[i].equals(null)) {
 
-				System.out.println("Digite a value menor que zero or maior");
+				System.out.println("O valor é nulo");
 
-			} else if (recebeValores[i] > 0) {
+			} else if ( recebeValores[i] < 0 || recebeValores[i] > 0) {
 
-				System.out.println(recebeValores.length);
+					
+					
+				
 			}
 
 		}

@@ -1,7 +1,7 @@
 package br.com.fuctura.projetospessoais.aprovados.turnomanha;
 
 import br.com.fuctura.projetospessoais.aprovados.escola.SalaDeAula;
-import br.com.fuctura.projetospessoais.aprovados.materias.Matematica;
+import br.com.fuctura.projetospessoais.aprovados.materias.AprovadosMatematica;
 
 public class PrimeiraSerieA extends SalaDeAula {
 
@@ -19,10 +19,10 @@ public class PrimeiraSerieA extends SalaDeAula {
 				&& this.getSerie().equalsIgnoreCase("primeira série") && this.getIdSala().equalsIgnoreCase("a")
 				&& this.getTurno().equalsIgnoreCase("manhã")) {
 
-			System.out.printf("%s %n", "Todos os dias quando acordo não tenho mais o tempo que passou");
-			Matematica.aprovados();
+			AprovadosMatematica.aprovadosPrimeiraAManha();
 
 		}
 	}
 
+	
 }
