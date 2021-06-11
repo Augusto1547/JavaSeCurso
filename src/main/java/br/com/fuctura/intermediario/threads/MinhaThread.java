@@ -12,8 +12,9 @@ public class MinhaThread extends Thread { // Thread é uma forma de iniciar uma 
 		start();
 		/*
 		 * start(ele está aqui mas estava na classe teste que está comentada pois aqui
-		 * eu não preciso ficar chamando ele várias vezes) vai iniciar a thread deixar
-		 * ela pronta para execução por debaixo dos panos executa o método run
+		 * eu não preciso ficar chamando ele várias vezes) toda vez que instanciar um thread
+		 *  então vai iniciar a thread deixa-la pronta para execução por debaixo dos panos 
+		 *  executa o método run
 		 */
 	}
 
@@ -23,18 +24,17 @@ public class MinhaThread extends Thread { // Thread é uma forma de iniciar uma 
 		try {
 			for (int i = 0; i < 6; i++) {
 				System.out.println(nome + " contador " + i);
-				Thread.sleep(tempo);
+				Thread.sleep(tempo); 
 				/*
 				 * sleep coloca a thread pra dormir em alguns milisegundos e foi sugerido o try
-				 * catch por que pode dar alguma exceção. Essa variável tempo foi usada depois
-				 * antes(900)por ex. quanto mais tempo colocado mais lenta será a execução da
-				 * thread
+				 * catch por que pode dar alguma exceção. Essa variável tempo foi usada depois,
+				 * por que antes tinhamos (900)por ex. quanto mais tempo colocado mais lenta 
+				 * será a execução da thread
 				 */
 			}
 		} catch (InterruptedException e) {
-			// quando usdei o .sleep(tempo) essa exceção InterruptedException passou a ter
-			// chance de ocorrer
-			// essa exceção informa que a tred foi interrompida
+			// quando usei o .sleep(tempo) essa exceção InterruptedException passou a ter chance de ocorrer
+			// essa exceção informa que a thread foi interrompida
 
 			e.printStackTrace();
 		}

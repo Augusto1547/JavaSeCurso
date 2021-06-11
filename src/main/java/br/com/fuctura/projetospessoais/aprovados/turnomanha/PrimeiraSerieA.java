@@ -20,7 +20,7 @@ public class PrimeiraSerieA extends SalaDeAula {
 				&& this.getTurno().equalsIgnoreCase("manhã")) {
 
 			AprovadosMatematica.aprovadosPrimeiraAManha();
-
+            System.exit(0);
 		}
 	}
 

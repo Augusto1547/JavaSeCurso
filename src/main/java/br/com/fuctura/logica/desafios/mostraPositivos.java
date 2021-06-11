@@ -40,29 +40,27 @@ public class mostraPositivos {
 		System.out.println("Valor 6");
 		Integer v6 = recebe.nextInt();
 
-		Integer[] recebeValores = new Integer[6];
-
-		recebeValores[0] = v1;
-		recebeValores[1] = v2;
-		recebeValores[2] = v3;
-		recebeValores[3] = v4;
-		recebeValores[4] = v5;
-		recebeValores[5] = v6;
-
-		for (int i = 0; i < recebeValores.length; i++) {
-
-			if (recebeValores[i].equals(null)) {
-
-				System.out.println("O valor é nulo");
-
-			} else if ( recebeValores[i] < 0 || recebeValores[i] > 0) {
-
-					
-					
-				
-			}
-
-		}
+//		Integer[] recebeValores = new Integer[6];
+//
+//		recebeValores[0] = v1;
+//		recebeValores[1] = v2;
+//		recebeValores[2] = v3;
+//		recebeValores[3] = v4;
+//		recebeValores[4] = v5;
+//		recebeValores[5] = v6;
+//
+//		for (int i = 0; i < recebeValores.length; i++) {
+//
+//			if (recebeValores[i].equals(null)) {
+//
+//				System.out.println("O valor é nulo");
+//
+//			} else if (recebeValores[i] > 0) {
+//
+//				System.out.println(recebeValores[i] / i);
+//			}
+//
+//		}
 	}
 
 }

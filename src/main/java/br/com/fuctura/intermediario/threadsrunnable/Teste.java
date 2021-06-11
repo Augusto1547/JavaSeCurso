@@ -15,7 +15,7 @@ public class Teste {
 		/*
 		 * OBS: uso thread ou runnable? vai depender do seu projeto e de seu gosto
 		 * quando agente usa a classe Runnable agente pode extender qualquer outra
-		 * classe por que já vimos que e possível extender várias interfaces já a classe
+		 * classe por que já vimos que é possível extender várias interfaces já a classe
 		 * não, só existe apenas uma única extensão se você não for sobrepor qualquer
 		 * outro método da classe Thread (onde tem vários outros métodos) é melhor então
 		 * usar a classe Runnable

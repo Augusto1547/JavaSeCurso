@@ -1,9 +1,9 @@
 package br.com.fuctura.intermediario.threadsrunnable;
 
 public class MinhaThreadRunnable implements Runnable {
-	// diferente Threads Runnable implementa e não precisa do método start() por que
-	// ela não tem esse método
-	// já que é uma interface
+	// diferente das Threads Runnable implementa uma interface e não precisa do método start() por que
+	// ela não tem esse método já que é uma interface mas mesmo assim preciso chamer o método start()
+	// de alguma outra maneira
 
 	private String nome;
 	private int tempo;
@@ -13,8 +13,9 @@ public class MinhaThreadRunnable implements Runnable {
 		this.nome = nome;
 		this.tempo = tempo;
 		//MinhaThreadRunnable ela apenas implementa a classe Runnable ela não é de fato uma thred para ser uma
-		//thread de verdade agente precisa passar essa classe runnable pra que classe thread possoa recebe-lo
-		Thread t = new Thread(this);//como eu preciso passar uma estância da classe runnable eu posso passar o this(que faz referência a própria classe)
+		//thread de verdade agente precisa passar essa classe runnable pra que classe thread possoa recebe-la
+		Thread t = new Thread(this);//como eu preciso passar uma estância da classe runnable eu posso
+		//passar o this(que faz referência a própria classe)
 		t.start();
 	}
 
