@@ -1,6 +1,6 @@
 package br.com.fuctura.projetospessoais.aprovados.excecoes;
 
-public class IdentificacaoInexistente {
+public class IdentificacaoInexistente extends Exception{
 	
 	public String mensagem;
 	

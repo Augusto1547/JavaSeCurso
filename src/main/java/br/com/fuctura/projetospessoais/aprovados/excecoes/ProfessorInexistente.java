@@ -6,6 +6,6 @@ public class ProfessorInexistente extends Exception {
 
 	public ProfessorInexistente() {
 
-		this.mensagem = "Este professor informado não existe no sistema";
+		this.mensagem = new String("Este professor informado não existe no sistema");
 	}
 }

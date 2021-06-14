@@ -6,12 +6,12 @@ public class Teste {
 
 		MinhaThread thread = new MinhaThread("Thread #1", 900); // 1000 equivale a um segundo
 		//thread.start(); //esse estart chama o método run
-
+        
 		MinhaThread thread2 = new MinhaThread("Thread #2", 900);
 
 		MinhaThread thread3 = new MinhaThread("Thread #3", 900);
 		/*
-		 * com isso acabamos de executar três tarefas ao mesmo tempo em nosso progama só
+		 * com isso acabamos de executar três tarefas ao mesmo tempo em nosso progama, só
 		 * que cada tarefa tem seu próprio passo. nesse progama temos uma thred que faz
 		 * a mesma tarefa mas você poderia ter várias threds que executam várias tarefas
 		 * diferentes em seu próprio tempo diferente também
@@ -20,7 +20,7 @@ public class Teste {
 	/*
 	 * Executar duas ou mais tarefas ao mesmo tempo é o que nós chamamos de threads
 	 * a vantagem de se criar thread é que podemos deixar o progama mais eficiente
-	 * nós podemos criar threas para o progama fazer mais uma atividade ao mesmo
+	 * nós podemos criar threas para o progama fazer mais de uma atividade ao mesmo
 	 * tempo
 	 * Ciclo de vida das threads: existem 5 estados da threads que são importantes 
 	 * New: quando criamos uma nova thread(instanciamos)

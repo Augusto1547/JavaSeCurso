@@ -21,7 +21,8 @@ public class Teste2 {
 		t2.start(); 
 		t3.start();
 
-		while (t1.isAlive() || t2.isAlive() || t3.isAlive()) { // enquanto t1 estiver viva (is alive(viva))
+		while (t1.isAlive() || t2.isAlive() || t3.isAlive()) { // enquanto t1 estiver viva (o loop for ainda
+			//esteja em execução)
 			try {
 				Thread.sleep(200); // Agente pede pra thread durma e garantir que a mensagem Progama finalizado
 				//seja executado apenas no final

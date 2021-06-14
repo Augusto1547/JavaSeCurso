@@ -28,8 +28,9 @@ public class AprovadosMatematica {
 				aprovadoDoze, aprovadoTreze);
 
 		for (AlunosAprovados alunosAprovados : aprovados) {
-
-			System.out.println(alunosAprovados.getNomeAlunos() + alunosAprovados.getNotaAlunos());
+			
+			StringBuffer con = new StringBuffer();
+			System.out.println(con.append("Nome aluno: " + alunosAprovados.getNomeAlunos()).append(" ").append("Nota aluno: " + alunosAprovados.getNotaAlunos()));
 
 		}
 

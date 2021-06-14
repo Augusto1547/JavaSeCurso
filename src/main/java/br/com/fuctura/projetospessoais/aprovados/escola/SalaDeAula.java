@@ -110,7 +110,7 @@ public abstract class SalaDeAula {
 			this.turno = turno;
 
 		} else {
-			
+
 			throw new TurnoInexistente();
 		}
 	}
@@ -119,16 +119,15 @@ public abstract class SalaDeAula {
 		return idSala;
 	}
 
-	public void setIdSala(String idSala) throws IdentificacaoInexistente {
+	public void setIdSala(String idSala) throws IdentificacaoInexistente{
 
 		if (idSala.equalsIgnoreCase("a") || idSala.equalsIgnoreCase("b")) {
 
 			this.idSala = idSala;
 
 		} else {
-			
-			throw new IdentificacaoInexistente();
 
+            throw new IdentificacaoInexistente();
 		}
 	}
 
