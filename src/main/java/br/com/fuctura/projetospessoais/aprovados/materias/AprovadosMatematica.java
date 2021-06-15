@@ -28,9 +28,32 @@ public class AprovadosMatematica {
 				aprovadoDoze, aprovadoTreze);
 
 		for (AlunosAprovados alunosAprovados : aprovados) {
-			
+
 			StringBuffer con = new StringBuffer();
-			System.out.println(con.append("Nome aluno: " + alunosAprovados.getNomeAlunos()).append(" ").append("Nota aluno: " + alunosAprovados.getNotaAlunos()));
+			System.out.println(con.append("Nome aluno: " + alunosAprovados.getNomeAlunos()).append(" ")
+					.append("Nota aluno: " + alunosAprovados.getNotaAlunos()));
+
+		}
+
+	}
+
+	public static void aprovadosPrimeiraBManha() {
+
+		AlunosAprovados aprovadoUm = new AlunosAprovados("Esta é a primeira série b da manhã matemática", 10D);
+		AlunosAprovados aprovadoDois = new AlunosAprovados("João Christofonile", 8.6D);
+		AlunosAprovados aprovadoTres = new AlunosAprovados("Pedro Cardoso Ferrais", 6.5D);
+		AlunosAprovados aprovadoQuatro = new AlunosAprovados("Maria Joaquina Silvestre", 10D);
+		AlunosAprovados aprovadoCinco = new AlunosAprovados("João Bosco de Vasconcelos", 9D);
+		AlunosAprovados aprovadoSeis = new AlunosAprovados("Maria Eduarda", 8D);
+
+		List<AlunosAprovados> aprovados = Arrays.asList(aprovadoUm, aprovadoDois, aprovadoTres, aprovadoQuatro,
+				aprovadoCinco, aprovadoSeis);
+
+		for (AlunosAprovados alunosAprovados : aprovados) {
+
+			StringBuffer con = new StringBuffer();
+			System.out.println(con.append("Nome aluno: " + alunosAprovados.getNomeAlunos()).append(" ")
+					.append("Nota aluno: " + alunosAprovados.getNotaAlunos()));
 
 		}
 

@@ -2,12 +2,13 @@ package br.com.fuctura.projetospessoais.aprovados.imprimiraprovados;
 
 import java.util.Scanner;
 
+import br.com.fuctura.projetospessoais.aprovados.excecoes.IdentificacaoInexistente;
+import br.com.fuctura.projetospessoais.aprovados.excecoes.MateriaInexistente;
 import br.com.fuctura.projetospessoais.aprovados.excecoes.ProfessorInexistente;
 import br.com.fuctura.projetospessoais.aprovados.excecoes.SerieInexistente;
 import br.com.fuctura.projetospessoais.aprovados.excecoes.TurnoInexistente;
-import br.com.fuctura.projetospessoais.aprovados.excecoes.IdentificacaoInexistente;
-import br.com.fuctura.projetospessoais.aprovados.excecoes.MateriaInexistente;
 import br.com.fuctura.projetospessoais.aprovados.turnomanha.PrimeiraSerieA;
+import br.com.fuctura.projetospessoais.aprovados.turnomanha.PrimeiraSerieB;
 
 public class TodosAprovados {
 
@@ -30,10 +31,13 @@ public class TodosAprovados {
 		System.out.println("Qual é o turno?");
 		String turno = recebe.nextLine();
 
-		PrimeiraSerieA matematicaManha = new PrimeiraSerieA();
+		PrimeiraSerieA matematicaManhaPrimeiraSeA = new PrimeiraSerieA();
+		PrimeiraSerieB matematicaManhaPrimeiraSeB = new PrimeiraSerieB();
+
 		try {
 
-			matematicaManha.setInstrutor(professor);
+			matematicaManhaPrimeiraSeA.setInstrutor(professor);
+			matematicaManhaPrimeiraSeB.setInstrutor(professor);
 
 		} catch (ProfessorInexistente e) {
 
@@ -42,7 +46,8 @@ public class TodosAprovados {
 		}
 		try {
 
-			matematicaManha.setMateria(materia);
+			matematicaManhaPrimeiraSeA.setMateria(materia);
+			matematicaManhaPrimeiraSeB.setMateria(materia);
 
 		} catch (MateriaInexistente e) {
 
@@ -51,13 +56,20 @@ public class TodosAprovados {
 
 		}
 		try {
-			matematicaManha.setSerie(serie);
+
+			matematicaManhaPrimeiraSeA.setSerie(serie);
+			matematicaManhaPrimeiraSeB.setSerie(serie);
+
 		} catch (SerieInexistente e) {
+
 			System.out.println("Mensagem = " + e.mensagem);
 			System.exit(0);
 		}
 		try {
-			matematicaManha.setIdSala(sala);
+
+			matematicaManhaPrimeiraSeA.setIdSala(sala);
+			matematicaManhaPrimeiraSeB.setIdSala(sala);
+
 		} catch (IdentificacaoInexistente e) {
 
 			System.out.println("Mensagem = " + e.mensagem);
@@ -65,7 +77,8 @@ public class TodosAprovados {
 		}
 		try {
 
-			matematicaManha.setTurno(turno);
+			matematicaManhaPrimeiraSeA.setTurno(turno);
+			matematicaManhaPrimeiraSeB.setTurno(turno);
 
 		} catch (TurnoInexistente e) {
 
@@ -73,7 +86,8 @@ public class TodosAprovados {
 			System.exit(0);
 		}
 
-		matematicaManha.acessarAprovadosPrimeiraSerieAMatematica();
+		matematicaManhaPrimeiraSeA.acessarAprovadosPrimeiraSerieAMatematica();
+		matematicaManhaPrimeiraSeB.acessarAprovadosPrimeiraSerieBMatematica();
 
 	}
 

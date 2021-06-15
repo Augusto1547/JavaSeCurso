@@ -1,6 +1,5 @@
 package br.com.fuctura.projetospessoais.aprovados.escola;
 
-import br.com.fuctura.poo.sobrecargaDeMetodos.Matematica;
 import br.com.fuctura.projetospessoais.aprovados.excecoes.IdentificacaoInexistente;
 import br.com.fuctura.projetospessoais.aprovados.excecoes.MateriaInexistente;
 import br.com.fuctura.projetospessoais.aprovados.excecoes.ProfessorInexistente;
@@ -23,7 +22,6 @@ public abstract class SalaDeAula {
 	private String turno;
 
 	public AlunosAprovados alunosAprovados;
-	public Matematica matematica;
 
 	public SalaDeAula() {
 		super();
@@ -119,7 +117,7 @@ public abstract class SalaDeAula {
 		return idSala;
 	}
 
-	public void setIdSala(String idSala) throws IdentificacaoInexistente{
+	public void setIdSala(String idSala) throws IdentificacaoInexistente {
 
 		if (idSala.equalsIgnoreCase("a") || idSala.equalsIgnoreCase("b")) {
 
@@ -127,7 +125,7 @@ public abstract class SalaDeAula {
 
 		} else {
 
-            throw new IdentificacaoInexistente();
+			throw new IdentificacaoInexistente();
 		}
 	}
 

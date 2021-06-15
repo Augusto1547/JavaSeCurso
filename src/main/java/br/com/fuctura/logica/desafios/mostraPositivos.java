@@ -1,5 +1,6 @@
 package br.com.fuctura.logica.desafios;
 
+import java.util.ArrayList;
 //: 27
 import java.util.Scanner;
 
@@ -40,30 +41,41 @@ public class mostraPositivos {
 		System.out.println("Valor 6");
 		Integer v6 = recebe.nextInt();
 
-		Integer[] recebeValores = new Integer[6];
+//		Integer[] recebeValores = new Integer[6];
+//
+//		recebeValores[0] = v1;
+//		recebeValores[1] = v2;
+//		recebeValores[2] = v3;
+//		recebeValores[3] = v4;
+//		recebeValores[4] = v5;
+//		recebeValores[5] = v6;
+//
+//		int count = 0;
+//		for (int i = 0; i < recebeValores.length; i++) {
+//
+//			if (recebeValores[i].equals(null)) {
+//
+//				System.out.println("O valor é nulo");
+//
+//			} else if (recebeValores[i] > 0) {
+//
+//                 System.out.println(count++);
+//				
+//                 
+//			}
+//
+//		}
+//		https://www.youtube.com/watch?v=c0nEVgU7G_w&ab_channel=TiagoAguiarTiagoAguiar aula sobre arrayList
+		ArrayList<Integer> arr = new ArrayList<Integer>(6);
+		arr.addAll(0, arr);
 
-		recebeValores[0] = v1;
-		recebeValores[1] = v2;
-		recebeValores[2] = v3;
-		recebeValores[3] = v4;
-		recebeValores[4] = v5;
-		recebeValores[5] = v6;
+		if (arr.equals(null)) {
 
-		int count = 0;
-		for (int i = 0; i < recebeValores.length; i++) {
+			System.out.println("O valor e nulo");
 
-			if (recebeValores[i].equals(null)) {
+		} else {
 
-				System.out.println("O valor é nulo");
-
-			} else if (recebeValores[i] > 0) {
-
-//				Integer positivos = recebeValores[i] / recebeValores[i];
-
-				System.out.println(recebeValores[i]);
-				continue;
-			}
-
+			System.out.println(arr.addAll(0, arr);
 		}
 	}
 
