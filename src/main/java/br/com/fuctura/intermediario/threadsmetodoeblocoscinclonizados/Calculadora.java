@@ -14,7 +14,7 @@ package br.com.fuctura.intermediario.threadsmetodoeblocoscinclonizados;
  * Quando duas ou mais threads tentam acessar o mesmo recurso ao mesmo tempo somente
  * uma thread que pode acessar o recurso por vez. Então para que duas ou mais threads
  * não possa acessar o mesmo recurso de uma vez - e com isso alterar a 
- * saída do progama que agente está esperando pra, isso agente tem que cincronizar o 
+ * saída do progama que agente está esperando, pra isso agente tem que cincronizar o 
  * código para garantir que somente uma thread vai acessar aquele recurso. E pra fazer
  * isso no java nós utilizamos a palavra chave synchronized, nós podemos utilizar isso
  * num método ou agente pode usar num bloco de código passando qual que é o recurso que
@@ -48,7 +48,7 @@ public class Calculadora {// Pra que essa classe fique compartilhada entre duas 
 
 			} catch (Exception e) {
 
-				e.printStackTrace();
+				e.printStackTrace(); //mostra que ouve um erro e onde esse erro ocorreu mas não é amigável ao usuário
 			}
 
 		}
