@@ -22,7 +22,7 @@ public class Array_multidimencional {
         galos[2][3] = "Dourado";
         
         
-        System.out.println(galos[1][3]);
+        System.out.println(galos[1][2]);
         
         
     }

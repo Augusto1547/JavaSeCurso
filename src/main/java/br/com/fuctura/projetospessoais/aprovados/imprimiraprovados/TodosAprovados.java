@@ -32,12 +32,20 @@ public class TodosAprovados {
 		String turno = recebe.nextLine();
 
 		PrimeiraSerieA matematicaManhaPrimeiraSeA = new PrimeiraSerieA();
+		PrimeiraSerieA portuguesManhaPrimeiraSeA = new PrimeiraSerieA();
+		PrimeiraSerieB historiaManhaPrimeiraSeA = new PrimeiraSerieB();
 		PrimeiraSerieB matematicaManhaPrimeiraSeB = new PrimeiraSerieB();
+		PrimeiraSerieB portuguesManhaPrimeiraSeB = new PrimeiraSerieB();
+		PrimeiraSerieB historiaManhaPrimeiraSeB = new PrimeiraSerieB();
 
 		try {
 
 			matematicaManhaPrimeiraSeA.setInstrutor(professor);
 			matematicaManhaPrimeiraSeB.setInstrutor(professor);
+			portuguesManhaPrimeiraSeA.setInstrutor(professor);
+			portuguesManhaPrimeiraSeB.setInstrutor(professor);
+			historiaManhaPrimeiraSeA.setInstrutor(professor);
+			historiaManhaPrimeiraSeB.setInstrutor(professor);
 
 		} catch (ProfessorInexistente e) {
 
@@ -48,6 +56,10 @@ public class TodosAprovados {
 
 			matematicaManhaPrimeiraSeA.setMateria(materia);
 			matematicaManhaPrimeiraSeB.setMateria(materia);
+			portuguesManhaPrimeiraSeA.setMateria(materia);
+			portuguesManhaPrimeiraSeB.setMateria(materia);
+			historiaManhaPrimeiraSeA.setMateria(materia);
+			historiaManhaPrimeiraSeB.setMateria(materia);
 
 		} catch (MateriaInexistente e) {
 
@@ -59,6 +71,10 @@ public class TodosAprovados {
 
 			matematicaManhaPrimeiraSeA.setSerie(serie);
 			matematicaManhaPrimeiraSeB.setSerie(serie);
+			portuguesManhaPrimeiraSeA.setSerie(serie);
+			portuguesManhaPrimeiraSeB.setSerie(serie);
+			historiaManhaPrimeiraSeA.setSerie(serie);
+			historiaManhaPrimeiraSeB.setSerie(serie);
 
 		} catch (SerieInexistente e) {
 
@@ -69,6 +85,10 @@ public class TodosAprovados {
 
 			matematicaManhaPrimeiraSeA.setIdSala(sala);
 			matematicaManhaPrimeiraSeB.setIdSala(sala);
+			portuguesManhaPrimeiraSeA.setIdSala(sala);
+			portuguesManhaPrimeiraSeB.setIdSala(sala);
+			historiaManhaPrimeiraSeA.setIdSala(sala);
+			historiaManhaPrimeiraSeB.setIdSala(sala);
 
 		} catch (IdentificacaoInexistente e) {
 
@@ -79,6 +99,10 @@ public class TodosAprovados {
 
 			matematicaManhaPrimeiraSeA.setTurno(turno);
 			matematicaManhaPrimeiraSeB.setTurno(turno);
+			portuguesManhaPrimeiraSeA.setTurno(turno);
+			portuguesManhaPrimeiraSeB.setTurno(turno);
+			historiaManhaPrimeiraSeA.setTurno(turno);
+			historiaManhaPrimeiraSeB.setTurno(turno);
 
 		} catch (TurnoInexistente e) {
 
@@ -88,7 +112,10 @@ public class TodosAprovados {
 
 		matematicaManhaPrimeiraSeA.acessarAprovadosPrimeiraSerieAMatematica();
 		matematicaManhaPrimeiraSeB.acessarAprovadosPrimeiraSerieBMatematica();
-
+		portuguesManhaPrimeiraSeA.acessarAprovadosPrimeiraSerieAPortugues();
+		portuguesManhaPrimeiraSeB.acessarAprovadosPrimeiraSerieBPortugues();
+		historiaManhaPrimeiraSeA.acessarAprovadosPrimeiraSerieBHistoria();
+		historiaManhaPrimeiraSeB.acessarAprovadosPrimeiraSerieBHistoria();
 	}
 
 }

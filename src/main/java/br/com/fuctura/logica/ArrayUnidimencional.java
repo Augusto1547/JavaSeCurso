@@ -50,7 +50,7 @@ public class ArrayUnidimencional {
                 
             } else {
                 
-                System.out.println("Vai tomar no cu porra");
+                System.out.println("Valor não encontrado");
             }
 
         }*/
