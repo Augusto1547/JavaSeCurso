@@ -13,7 +13,7 @@ public class MinhaThreadRunnable implements Runnable {
 		this.nome = nome;
 		this.tempo = tempo;
 		//MinhaThreadRunnable ela apenas implementa a classe Runnable(ela não é de fato uma thred) para ser uma
-		//thread de verdade agente precisa passar essa classe runnable pra que classe thread possoa recebe-la
+		//thread de verdade agente precisa passar essa classe runnable pra que a classe thread possoa recebe-la
 		Thread t = new Thread(this);//como eu preciso passar uma estância da classe runnable eu posso
 		//passar o this(que faz referência a própria classe)
 		t.start();
