@@ -1,0 +1,18 @@
+
+                                            AULA 1
+                                            
+                                          
+ -TIME: 10:03
+ 
+ -para que minha tela de cadastro por exemplo possa armazenar as informações em um banco de dados eu precisar de algumas classes intermediárias pra poder me auxiliar e pra poder que seja possível que me objeto que está na aplicação java seja convertido em um regestro em uma das tabelas que foram criadas em um banco de dados.
+ -O JDBC é uma biblioteca que foi implementado em java ele é um conjunto de classes e interfaces pra que nós possamos utiliza-las dentro do contexto da nossa aplicação java e fazer com que os objetos(dados) que precisam ser persistidos possa ser persisidos apartir dessas classes e bibliotecas que foram implementadas.
+ Ai temos que ter classes, implementações específicas(drivers) para cada banco de dados. Vamos incluir um driver de conexão mysql ou, oracle, ou outro ou seja um arquivo jar que vai ser o drive de conexão com determinado banco de dados
+ 
+ 
+                              PRINCIPAIS CLASSES E INTERFACES JDBC
+  
+  DriveManager : cria conexão com o banco de dados; 
+  Connection : mantém uma conexão aberta com o banco; 
+  Statement : gerencia e executa instruções SQL; 
+  PreparedStatement: gerencia e executa instruções SQL(parâmetros); 
+  ResultSet : recebe os dados obtidos em uma pesquisa ao banco.

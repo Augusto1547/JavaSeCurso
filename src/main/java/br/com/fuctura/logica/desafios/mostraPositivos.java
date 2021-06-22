@@ -1,6 +1,5 @@
 package br.com.fuctura.logica.desafios;
 
-import java.util.ArrayList;
 //: 27
 import java.util.Scanner;
 
@@ -24,51 +23,45 @@ public class mostraPositivos {
 		Scanner recebe = new Scanner(System.in);
 
 		System.out.println("Valor 1");
-		Integer v1 = recebe.nextInt();
-
+		Integer v1 = Integer.parseInt(recebe.nextLine());
 		System.out.println("Valor 2");
-		Integer v2 = recebe.nextInt();
-
+		Integer v2 = Integer.parseInt(recebe.nextLine());
 		System.out.println("Valor 3");
-		Integer v3 = recebe.nextInt();
-
+		Integer v3 = Integer.parseInt(recebe.nextLine());
 		System.out.println("Valor 4");
-		Integer v4 = recebe.nextInt();
-
+		Integer v4 = Integer.parseInt(recebe.nextLine());
 		System.out.println("Valor 5");
-		Integer v5 = recebe.nextInt();
-
+		Integer v5 = Integer.parseInt(recebe.nextLine());
 		System.out.println("Valor 6");
-		Integer v6 = recebe.nextInt();
+		Integer v6 = Integer.parseInt(recebe.nextLine());
 
-		Integer[] recebeValores = new Integer[6];
+		if (v1.equals(null) || v2.equals(null) || v3.equals(null) || v4.equals(null) || v5.equals(null)
+				|| v6.equals(null)) {
 
-		recebeValores[0] = v1;
-		recebeValores[1] = v2;
-		recebeValores[2] = v3;
-		recebeValores[3] = v4;
-		recebeValores[4] = v5;
-		recebeValores[5] = v6;
+			System.out.println("Não é aceito valores nulos");
 
-		int count = 0;
-		for (int i = 0; i < recebeValores.length; i++) {
+		} else {
 
-			if (recebeValores[i].equals(null)) {
+			Integer[] valor = new Integer[6];
+			valor[0] = v1;
+			valor[1] = v2;
+			valor[2] = v3;
+			valor[3] = v4;
+			valor[4] = v5;
+			valor[5] = v6;
 
-				System.out.println("O valor é nulo");
-
-			} else if (recebeValores[i] > 0) {
-
-                break;
-                
+			Integer soma = 0;
+			for (int i = 0; i < valor.length; i++) {
+				if (valor[i] > 0) {
+					Integer recebeInteiros = valor[i];
+                    System.out.println(recebeInteiros);
+				}
 			}
 
+		    
 		}
-		 
 
-		 
 	}
-
 }
 // receba 6 valores > descarte valores nulos e receba positivos e negativos 
 // mostre quantidade de positivos com mensagem ao lado
