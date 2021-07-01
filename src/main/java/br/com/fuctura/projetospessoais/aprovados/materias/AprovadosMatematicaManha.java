@@ -10,7 +10,7 @@ public class AprovadosMatematicaManha {
      * por que esse é o turno da manhã*/
 	public static void aprovadosPrimeiraAManha() {
 
-		AlunosAprovados aprovadoUm = new AlunosAprovados("Augusto César dos Santos Cavalanti", 10D);
+		AlunosAprovados aprovadoUm = new AlunosAprovados("Augusto César dos Santos Cavalanti", 11D);
 		AlunosAprovados aprovadoDois = new AlunosAprovados("João Christofonile", 8.6D);
 		AlunosAprovados aprovadoTres = new AlunosAprovados("Pedro Cardoso Ferrais", 6.5D);
 		AlunosAprovados aprovadoQuatro = new AlunosAprovados("Maria Joaquina Silvestre", 10D);

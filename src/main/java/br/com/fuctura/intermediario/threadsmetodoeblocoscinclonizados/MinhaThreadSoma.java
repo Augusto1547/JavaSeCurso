@@ -13,7 +13,8 @@ public class MinhaThreadSoma implements Runnable {
 
 		this.nome = nome;
 		this.nums = nums;
-		new Thread(this, nome).start(); // this passa a instância da classe Runnable podemos aproveitar e passar
+		new Thread(this, nome).start(); 
+		// this passa a instância da classe Runnable podemos aproveitar e passar
 		// o nome pra depois pegar essa nome OBS// esse código eu mesmo que está em
 		// abaixo
 

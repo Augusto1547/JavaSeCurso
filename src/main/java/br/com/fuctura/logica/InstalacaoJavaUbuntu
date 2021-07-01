@@ -1,0 +1,20 @@
+
+
+	                                        INSTALAÇÃO DO JAVA NO UBUNTU
+	                                        
+sudo apt-get install openjdk-11-jdk
+java
+java --version
+sudo update-alternatives --config java(seleciona e copia: /usr/lib/jvm/java-11-openjdk-amd64)
+sudo gedit ~/.bashrc
+
+no fim do arquivo coloca:
+JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+export JAVA_HOME
+export PATH=$PATH:$JAVA_HOME
+
+após salvar ver se tudo deu certo: cat ~/.bashrc
+
+fecha o terminal e abre outro e digita: echo $JAVA_HOME
+
+	                                        

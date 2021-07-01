@@ -1,12 +1,16 @@
 
                                             AULA 1
-                                            
+          https://www.youtube.com/watch?v=-2Qgpe7T5tc&t=61s&ab_channel=CursosKaneChan (aula de crude) estou aqui                                  
                                           
- -TIME: 10:03
+ -TIME: 10:25
  
- -para que minha tela de cadastro por exemplo possa armazenar as informações em um banco de dados eu precisar de algumas classes intermediárias pra poder me auxiliar e pra poder que seja possível que me objeto que está na aplicação java seja convertido em um regestro em uma das tabelas que foram criadas em um banco de dados.
- -O JDBC é uma biblioteca que foi implementado em java ele é um conjunto de classes e interfaces pra que nós possamos utiliza-las dentro do contexto da nossa aplicação java e fazer com que os objetos(dados) que precisam ser persistidos possa ser persisidos apartir dessas classes e bibliotecas que foram implementadas.
- Ai temos que ter classes, implementações específicas(drivers) para cada banco de dados. Vamos incluir um driver de conexão mysql ou, oracle, ou outro ou seja um arquivo jar que vai ser o drive de conexão com determinado banco de dados
+ -para que minha tela de cadastro por exemplo possa armazenar as informações em um banco de dados eu precisar de algumas classes intermediárias 
+ pra poder me auxiliar e pra poder que seja possível que meu objeto que está na aplicação java seja convertido em um regestro em uma das tabelas que 
+ foram criadas em um banco de dados.
+ -O JDBC é uma biblioteca que foi implementado em java ele é um conjunto de classes e interfaces pra que nós possamos utiliza-las dentro do contexto
+  da nossa aplicação java e fazer com que os objetos(dados) que precisam ser persistidos possa ser persisidos apartir dessas classes e bibliotecas
+  que foram implementadas. Ai temos que ter classes, implementações específicas(drivers) para cada banco de dados. Vamos incluir um driver de conexão
+   mysql ou, oracle, ou outro ou seja um arquivo jar que vai ser o drive de conexão com determinado banco de dados
  
  
                               PRINCIPAIS CLASSES E INTERFACES JDBC
