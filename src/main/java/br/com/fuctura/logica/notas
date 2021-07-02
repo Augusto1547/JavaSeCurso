@@ -65,6 +65,8 @@ https://www.youtube.com/watch?v=4fYjb71XNqw&t=250s (passagem por valor e referê
 
 https://www.youtube.com/watch?v=t8YdYitKEC0&ab_channel=ManualdaPrograma%C3%A7%C3%A3oManualdaPrograma%C3%A7%C3%A3o (Evitando NullPointerException)
 
+https://www.javaprogressivo.net/2012/09/o-comando-return-obtendo-informacoes.html (return para que serve)
+
                  LIVES E PALESTRAS
 
 https://www.youtube.com/watch?v=MijhFTsUbuM&ab_channel=SouJava(Sou iniciante Java Web, por onde eu começo?)
@@ -80,7 +82,10 @@ https://www.youtube.com/c/RinaldoDev/playlists (youtube: curso java 8,9,11 com n
 
 
 
-
+                                 IDEIAS SOBRE PROGAMAS
+                                 
+Não crie métodos que fazem mil coisas. Ao invés disso, crie mil métodos, onde cada um faz uma coisa bem determinada. 
+Isso é importante para você se organizar, não se perder e poder reutilizar seus códigos no futuro.
 
 
 
