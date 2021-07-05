@@ -1,11 +1,8 @@
 package br.com.fuctura.projetospessoais.aprovados.escola;
 
-import br.com.fuctura.projetospessoais.aprovados.excecoes.NotaInvalida;
-
 public class AlunosAprovados {
-
-	String nomeAlunos;
-	Double notaAlunos;
+	private String nomeAlunos;
+	private Double notaAlunos;
 
 	public AlunosAprovados() {
 		super();
@@ -14,7 +11,14 @@ public class AlunosAprovados {
 	public AlunosAprovados(String nomeAlunos, Double notaAlunos) {
 		super();
 		this.nomeAlunos = nomeAlunos;
-		this.notaAlunos = notaAlunos;
+
+		if (notaAlunos >= 11 && notaAlunos < 0) {
+			System.out.println("nota precisa ficar entre 0 a 10 ");
+
+		} else {
+			this.notaAlunos = notaAlunos;
+
+		}
 	}
 
 	public String getNomeAlunos() {
@@ -31,15 +35,7 @@ public class AlunosAprovados {
 
 	public void setNotaAlunos(Double notaAlunos) {
 
-		if (notaAlunos <= 10) {
-
-			this.notaAlunos = notaAlunos;
-
-		} else {
-
-			System.out.printf("%s : Mensagem : ", "Vai tomar no cú caralho");
-
-		}
+		this.notaAlunos = notaAlunos;
 	}
 
 	@Override

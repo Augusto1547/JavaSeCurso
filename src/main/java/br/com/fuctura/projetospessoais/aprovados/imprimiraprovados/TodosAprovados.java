@@ -7,8 +7,8 @@ import br.com.fuctura.projetospessoais.aprovados.excecoes.MateriaInexistente;
 import br.com.fuctura.projetospessoais.aprovados.excecoes.ProfessorInexistente;
 import br.com.fuctura.projetospessoais.aprovados.excecoes.SerieInexistente;
 import br.com.fuctura.projetospessoais.aprovados.excecoes.TurnoInexistente;
-import br.com.fuctura.projetospessoais.aprovados.turnomanha.PrimeiraSerieA;
-import br.com.fuctura.projetospessoais.aprovados.turnomanha.PrimeiraSerieB;
+import br.com.fuctura.projetospessoais.aprovados.turnomanha.salas.PrimeiraSerieA;
+import br.com.fuctura.projetospessoais.aprovados.turnomanha.salas.PrimeiraSerieB;
 
 public class TodosAprovados {
 
@@ -33,7 +33,7 @@ public class TodosAprovados {
 
 		PrimeiraSerieA matematicaManhaPrimeiraSeA = new PrimeiraSerieA();
 		PrimeiraSerieA portuguesManhaPrimeiraSeA = new PrimeiraSerieA();
-		PrimeiraSerieB historiaManhaPrimeiraSeA = new PrimeiraSerieB();
+		PrimeiraSerieA historiaManhaPrimeiraSeA = new PrimeiraSerieA();
 		PrimeiraSerieB matematicaManhaPrimeiraSeB = new PrimeiraSerieB();
 		PrimeiraSerieB portuguesManhaPrimeiraSeB = new PrimeiraSerieB();
 		PrimeiraSerieB historiaManhaPrimeiraSeB = new PrimeiraSerieB();
@@ -114,7 +114,7 @@ public class TodosAprovados {
 		matematicaManhaPrimeiraSeB.acessarAprovadosPrimeiraSerieBMatematica();
 		portuguesManhaPrimeiraSeA.acessarAprovadosPrimeiraSerieAPortugues();
 		portuguesManhaPrimeiraSeB.acessarAprovadosPrimeiraSerieBPortugues();
-		historiaManhaPrimeiraSeA.acessarAprovadosPrimeiraSerieBHistoria();
+		historiaManhaPrimeiraSeA.acessarAprovadosPrimeiraSerieAHistoria();
 		historiaManhaPrimeiraSeB.acessarAprovadosPrimeiraSerieBHistoria();
 	}
 

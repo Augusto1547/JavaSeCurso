@@ -4,7 +4,7 @@ public class ComprasEmFamilia implements Runnable {
 //	Qual coisa em comum todos os membros da familía tem? a conta conjunta. pra ser compartilhada 
 //	nessas compras em família
 
-	ContaConjunta conta = new ContaConjunta(); // temos uma única compra pra ser compartilhada
+	ContaConjunta conta = new ContaConjunta(); // temos uma única conta pra ser compartilhada
 	// nessas compras em família
 
 	public static void main(String[] args) {

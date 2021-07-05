@@ -1,6 +1,5 @@
 package br.com.fuctura.logica.desafios;
 
-//4:45
 import java.util.Scanner;
 
 @Cabecalho(

@@ -1,4 +1,4 @@
-package br.com.fuctura.projetospessoais.aprovados.materias;
+package br.com.fuctura.projetospessoais.aprovados.turnomanha.materias;
 
 import java.util.Arrays;
 import java.util.List;
@@ -6,8 +6,10 @@ import java.util.List;
 import br.com.fuctura.projetospessoais.aprovados.escola.AlunosAprovados;
 
 public class AprovadosMatematicaManha {
-	/*aprovados da primeira série a até a quinta série A e aprovados da primeira série b até a quinta série B
+	/*aprovados da primeira série A até a quinta série A e aprovados da primeira série b até a quinta série B
      * por que esse é o turno da manhã*/
+	
+	
 	public static void aprovadosPrimeiraAManha() {
 
 		AlunosAprovados aprovadoUm = new AlunosAprovados("Augusto César dos Santos Cavalanti", 11D);
@@ -37,6 +39,7 @@ public class AprovadosMatematicaManha {
 		}
 
 	}
+
 
 	public static void aprovadosPrimeiraBManha() {
 

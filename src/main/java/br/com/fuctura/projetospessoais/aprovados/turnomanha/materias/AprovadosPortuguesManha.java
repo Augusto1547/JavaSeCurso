@@ -1,15 +1,16 @@
-package br.com.fuctura.projetospessoais.aprovados.materias;
+package br.com.fuctura.projetospessoais.aprovados.turnomanha.materias;
 
 import java.util.Arrays;
 import java.util.List;
 
 import br.com.fuctura.projetospessoais.aprovados.escola.AlunosAprovados;
 
-public class AprovadosHistoriaManha {
-
+public class AprovadosPortuguesManha {
+     /*aprovados da primeira série a até a quinta série A e aprovados da primeira série b até a quinta série B
+      * por que esse é o turno da manhã*/
 	public static void aprovadosPrimeiraAManha() {
 
-		AlunosAprovados aprovadoUm = new AlunosAprovados("Primeira série A manhã história", 10D);
+		AlunosAprovados aprovadoUm = new AlunosAprovados("Primeira série A manhã português", 10D);
 		AlunosAprovados aprovadoDois = new AlunosAprovados("João Christofonile", 8.6D);
 		AlunosAprovados aprovadoTres = new AlunosAprovados("Pedro Cardoso Ferrais", 6.5D);
 		AlunosAprovados aprovadoQuatro = new AlunosAprovados("Maria Joaquina Silvestre", 10D);
@@ -38,7 +39,7 @@ public class AprovadosHistoriaManha {
 
 	public static void aprovadosPrimeiraBManha() {
 
-		AlunosAprovados aprovadoUm = new AlunosAprovados("Primeira série B manhã história", 10D);
+		AlunosAprovados aprovadoUm = new AlunosAprovados("Primeira série B manhã português", 10D);
 		AlunosAprovados aprovadoDois = new AlunosAprovados("João Christofonile", 8.6D);
 		AlunosAprovados aprovadoTres = new AlunosAprovados("Pedro Cardoso Ferrais", 6.5D);
 		AlunosAprovados aprovadoQuatro = new AlunosAprovados("Maria Joaquina Silvestre", 10D);

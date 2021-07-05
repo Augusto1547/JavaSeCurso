@@ -1,9 +1,9 @@
-package br.com.fuctura.projetospessoais.aprovados.turnomanha;
+package br.com.fuctura.projetospessoais.aprovados.turnomanha.salas;
 
 import br.com.fuctura.projetospessoais.aprovados.escola.SalaDeAula;
-import br.com.fuctura.projetospessoais.aprovados.materias.AprovadosHistoriaManha;
-import br.com.fuctura.projetospessoais.aprovados.materias.AprovadosMatematicaManha;
-import br.com.fuctura.projetospessoais.aprovados.materias.AprovadosPortuguesManha;
+import br.com.fuctura.projetospessoais.aprovados.turnomanha.materias.AprovadosHistoriaManha;
+import br.com.fuctura.projetospessoais.aprovados.turnomanha.materias.AprovadosMatematicaManha;
+import br.com.fuctura.projetospessoais.aprovados.turnomanha.materias.AprovadosPortuguesManha;
 
 public final class PrimeiraSerieA extends SalaDeAula {
 
