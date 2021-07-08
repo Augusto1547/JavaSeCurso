@@ -2,13 +2,13 @@ package br.com.fuctura.intermediario.threadsNotifyWaitNotifyAll;
 
 import java.util.Random;
 
-public class Produtor implements Runnable {
+public class Consumidor implements Runnable {
 
 	private Random random = new Random(); // Objeto para gerar um número aleatório entre 0 e 3000 milisegundos
 
 	private Ponte ponte;
 
-	public Produtor(Ponte ponte) {
+	public Consumidor(Ponte ponte) {
 		this.ponte = ponte;
 	}
 
@@ -20,10 +20,9 @@ public class Produtor implements Runnable {
 
 			try {
 				Thread.sleep(random.nextInt(3000));
-				total += i;
-				ponte.set(i);// num perido entre 0 e 3000 segundos vou adicionar os valores que estou gerando
+				total += ponte.get(i);// num perido entre 0 e 3000 segundos vou adicionar os valores que estou gerando
 								// dentro do meu for
-				System.err.println("\t" + total);
+				System.out.println("\t" + total);
 
 			} catch (InterruptedException e) {
 			}

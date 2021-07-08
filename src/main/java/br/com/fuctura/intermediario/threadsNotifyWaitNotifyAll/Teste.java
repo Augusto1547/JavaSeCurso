@@ -1,15 +1,17 @@
 package br.com.fuctura.intermediario.threadsNotifyWaitNotifyAll;
 
-public class Teste {
+import java.util.Map;
 
+public class Teste {
 	public static void main(String[] args) {
 
-		/*
-		 * System.out.println(System.getProperty("user.dir"));
-		 * System.out.println(System.getProperty("user.name"));
-		 * System.out.println(System.getProperty("os.name"));
-		 * System.out.println(System.getProperty("os.version"));
-		 */
+		
+//		  System.out.println(System.getProperty("user.dir"));
+//		  System.out.println(System.getProperty("user.name"));
+//		  System.out.println(System.getProperty("os.name"));
+//		  System.out.println(System.getProperty("os.version"));
+//		  System.getProperties().list(System.out);
+
 		
         /*
 		long startTime = System.currentTimeMillis();
@@ -38,8 +40,15 @@ public class Teste {
 	    
 	    System.out.println(new String(copyTo));
 	    
+	    String javaHome = System.getenv("JAVA_HOME");
+	    System.out.println(javaHome);
 	    
+	    Map<String, String> env = System.getenv();
+	    for (String nomeVariavel : env.keySet()) {
+	      System.out.format("%s=%s\n", nomeVariavel, env.get(nomeVariavel));
+	    }
 	    
+
 	    
 	}
 
