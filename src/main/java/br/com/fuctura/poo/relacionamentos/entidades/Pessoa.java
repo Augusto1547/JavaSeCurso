@@ -1,5 +1,6 @@
 package br.com.fuctura.poo.relacionamentos.entidades;
 //Associação e associação derivada
+
 //Agregação simples ou agregação(o todo é destruído mas as partes existe)
 
 import java.util.List;
@@ -9,55 +10,54 @@ import java.util.List;
 
 public class Pessoa {
 
-    private String nome;
-    private int idade;
-    private char sexo;
+	private String nome;
+	private int idade;
+	private char sexo;
 
-    private List<Endereco> listaDeEnderecos;
+	private List<Endereco> listaDeEnderecos;
 
-    public String getNome() {
-        return nome;
-    }
+	public String getNome() {
+		return nome;
+	}
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
 
-    public int getIndade() {
-        return idade;
-    }
+	public int getIdade() {
+		return idade;
+	}
 
-    public void setIndade(int idade) {
-        this.idade = idade;
-    }
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
 
-    public char getSexo() {
-        return sexo;
-    }
+	public char getSexo() {
+		return sexo;
+	}
 
-    public void setSexo(char sexo) {
-        this.sexo = sexo;
-    }
+	public void setSexo(char sexo) {
+		this.sexo = sexo;
+	}
 
-    public void imprimir() {
+	public void imprimir() {
 
-        System.out.println("Dados do condutor \n"
-                + "Nome : " + nome + "\n" + "Idade :" + idade + "\n" + "Sexo :"
-                + sexo);
+		System.out
+				.println("Dados do condutor \n" + "Nome : " + nome + "\n" + "Idade :" + idade + "\n" + "Sexo :" + sexo);
 
-        System.out.println("Endereços da pessoa \n");
+		System.out.println("Endereços da pessoa \n");
 
-        for (Endereco endereco : listaDeEnderecos) {
+		for (Endereco endereco : listaDeEnderecos) {
 
-            endereco.imprimir();
-        }
+			endereco.imprimir();
+		}
 
-    }
-    
-    public void adicionarEnderecos(Endereco endereco){
-        
-        listaDeEnderecos.add(endereco);
-        
-    }
+	}
+
+	public void adicionarEnderecos(Endereco endereco) {
+
+		listaDeEnderecos.add(endereco);
+
+	}
 
 }

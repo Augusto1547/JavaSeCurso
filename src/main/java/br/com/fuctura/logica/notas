@@ -2,6 +2,12 @@ https://www.youtube.com/watch?v=Q5Tfb5nT-Jw(como pesquisar no google)
 
 https://docs.oracle.com/en/java/javase/11/docs/api/java.base/module-summary.html (documentation)
 
+                                       ASSOCIAÇÕES DE CONHECIMENTOS
+                                       
+- Essa nota(atalhos), if(!,&,swtich), for(ele mesmo,while,do while, array,arraylist), nova aba(threads), get e set(hashcode,
+iqual, toString), new (relacionamentos), String(string builder, bigdecimal, equal, nes String), 
+abstract(interfaces,poliformismo), 
+
                                          PLAYLISTS
                                          
 https://www.youtube.com/watch?v=bCmrhSma5bw&list=PL-mvLy2ws8IJQlIm-OIU9WO-hJPlARq_W&index=1&ab_channel=RafaelMesquitaRafaelMesquita 
@@ -96,7 +102,16 @@ https://www.youtube.com/c/RinaldoDev/playlists (youtube: curso java 8,9,11 com n
 Não crie métodos que fazem mil coisas. Ao invés disso, crie mil métodos, onde cada um faz uma coisa bem determinada. 
 Isso é importante para você se organizar, não se perder e poder reutilizar seus códigos no futuro.
 
+-Roteiro: analizar resultado > criar classes bases > definir atributo > vai ter um ou vários desses ? >
+estabelecer relações(herança,composição) > criar construtores
+
+-Paciente tem(alternativa: o que o hospital(progama) precisa desse paciente?), Paciente está? Paciente precisa, Paciente faz?	
+, O que do paciente pode ser descartado para o progama
 
 
-
+                                       OUTRAS ÁREAS
+                                       
+ https://www.youtube.com/watch?v=RW_4KDIVZ8Q&ab_channel=CortesMarketingDigital(Wendel ficou liso e comça do zero)
+ https://www.contabilizei.com.br/contabilidade-online/nome-fantasia/ (Escolher nome fantasia para empres)                          
+ https://blog.nubank.com.br/cnpj-o-que-e-cadastro-nacional-da-pessoa-juridica/(o que é cnjp e como abri sua empresa)
 

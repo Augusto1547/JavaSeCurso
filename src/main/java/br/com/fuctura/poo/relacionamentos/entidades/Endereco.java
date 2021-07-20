@@ -45,7 +45,7 @@ public class Endereco {
                 + "Logradouro :" + logradouro + "\n"
                 + "Complemento :" + complemento + "\n"
                 + "Número :" + numero + "\n"
-                + "Sexo :" + cep + "\n"
+                + "Cep :" + cep + "\n"
         );
         
     }

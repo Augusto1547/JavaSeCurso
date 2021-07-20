@@ -2,17 +2,18 @@ package br.com.fuctura.logica;
 import java.util.Scanner;
 
 public class MatrizIrregular {
-
+//matriz quadrada(número de linhas igual o de colula), matriz irregular(número de linhas diferente do de colunas)
     public static void main(String[] args) {
-        
+    	
         Scanner scan = new Scanner(System.in);
        
         
         System.out.println("Entre com o número de pessoas que serão entrevistadas");
         int numEntrevistados = scan.nextInt();
         
-        
         String[][] nomesFilhos = new String[numEntrevistados][];
+        //pede pro usuário a quantidade de pessoas que serão intrevistados e passa como índice da matriz
+        
         
         for(int i = 0; i < nomesFilhos.length; i++) {//quantidade de linhas
             

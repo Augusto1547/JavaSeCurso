@@ -8,10 +8,11 @@ public class Tipos_de_dados {
     public static void main(String[] args) {
 
         /*
-        byte one = 120; //aproximadamente 120 carcteres
-        short two = 192;
-        int three = 9;
-        long four = 39348944;
+        byte one = -128 e 127; //aproximadamente 120 carcteres
+        short two = -32.768 a 32.767;
+        int three = -2.147.483.648;
+        long four = -9.223.372.036.854.775.808
+;
       
         float five = 893.5F;
         double six = 983.837;
