@@ -1,7 +1,19 @@
 package br.com.fuctura.logica;
 
 import java.util.Scanner;
-
+/*
+ * BreakPoint permite analizar o código apartir de um ponto específico determinado por mim
+ * Debugar é conseguir acompanhar a execução do progama passo a passo para analiza-lo
+ * Menu run > Toggle Breakpoint > ou Control+Shift+B
+ * no pacote > botão direito na classe > Debug as > Java Application
+ * Em Variables você consegue acompanhar o valor das variáveis se não aparecer abilite ela no show views. 
+ * observe que nessa aba variables é mostrado de início as coisas antes do breakpoint
+ * Na barra de tarefas va na seta pra baixo da direita ou F6 para executar o debug
+ * Va dando F6 e acompanhando em variables a execução
+ * O destaque VERDE informa qual a próxima linha vai ser executada
+ * window > perspective > Open Perspective > java
+ * quadrado vermelho interrompe o debug
+ */
 public class ComoDebugar {
 
     public static void main(String[] args) {

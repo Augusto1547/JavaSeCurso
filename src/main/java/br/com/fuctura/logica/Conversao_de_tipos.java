@@ -9,6 +9,9 @@ public class Conversao_de_tipos {
         byte numberThree = Byte.parseByte("22");
 
         String creditCard = String.valueOf(11);
+        
+        double k = 55.3;  
+        String texto = Double.toString(k);
 
         System.out.println(creditCard + 2);
 

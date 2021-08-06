@@ -21,6 +21,13 @@ public class Main {
 		carros.add(carro2);
 		carros.add(carro3);
 		
+		System.out.printf("A locação do cliente %s possui %d carros", cliente1.getNome(), carros.size());
+		
+		// para cada carro dentro de carros quero fazer o seguinte:
+		for(Carro carro: carros){
+            System.out.printf("Carro(marca=%s, ano=%s)\n", carro.getMarca(), carro.getAno());
+        }
+		
 	}
 
 }

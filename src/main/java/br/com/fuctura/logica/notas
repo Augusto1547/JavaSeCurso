@@ -1,12 +1,13 @@
 https://www.youtube.com/watch?v=Q5Tfb5nT-Jw(como pesquisar no google)
-
+https://www.youtube.com/watch?v=2nMi4JKSstk&ab_channel=TiagoBorges (mudança de paradigmas)
 https://docs.oracle.com/en/java/javase/11/docs/api/java.base/module-summary.html (documentation)
 
-                                       ASSOCIAÇÕES DE CONHECIMENTOS
+                                ASSOCIAÇÕES DE CONHECIMENTOS
                                        
-- Essa nota(atalhos), if(!,&,swtich), for(ele mesmo,while,do while, array,arraylist), nova aba(threads), get e set(hashcode,
-iqual, toString), new (relacionamentos), String(string builder, bigdecimal, equal, nes String), 
-abstract(interfaces,poliformismo), 
+- Essa nota(atalhos), if(!,&,swtich), for(ele mesmo,while,do while, break e continue, array,arraylist), nova aba(threads),
+ get e set(hashcode,iqual, toString), new (relacionamentos,composição, agregação,exemplo do stackover, valor e referência),
+  String(string builder, bigdecimal e biginteger, new String, tipos de dados,conversão de tipo, classe wrapper), 
+  abstract(interfaces,poliformismo,sobreescrita), Exeptions(debugar,err,out,in), Constante(Enuns) 
 
                                          PLAYLISTS
                                          

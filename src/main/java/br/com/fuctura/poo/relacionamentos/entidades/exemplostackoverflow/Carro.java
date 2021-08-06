@@ -3,13 +3,13 @@ package br.com.fuctura.poo.relacionamentos.entidades.exemplostackoverflow;
 public class Carro {
 
 	private String marca, ano;
-	
+
 	public Carro(String marca, String ano) {
 		this.marca = marca;
-		this.ano = ano;	
+		this.ano = ano;
 	}
 
-	//Métodos acessores
+	// Métodos acessores
 	public String getMarca() {
 		return marca;
 	}
@@ -22,7 +22,7 @@ public class Carro {
 		return ano;
 	}
 
-	public void setModelo(String ano) {
+	public void setAno(String ano) {
 		this.ano = ano;
 	}
 }

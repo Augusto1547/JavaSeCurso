@@ -1,40 +1,43 @@
 package br.com.fuctura.logica;
 
 public class ArrayUnidimencional {
-//Definition(quadrados) - practice(two forms) - foreach(diferente, iguais)
 
-    public static void main(String[] args) {
 
-        int[] number = new int[4];
+	public static void main(String[] args) {
+		//    	Se não houvesse uma sintaxe própria na linguagem, seria escrito assim:
+		//
+		//      Array<int> a = new Array<int>(10);
 
-        number[0] = 1;
-        number[1] = 2;
-        number[2] = 3;
-        number[3] = 4;
+		int[] number = new int[4];
 
-        System.out.println("Value : " + number[3] + "\n" + number[1]);
+		number[0] = 1;
+		number[1] = 2;
+		number[2] = 3;
+		number[3] = 4;
 
-        System.out.println("\n==============================\n");
+		System.out.println("Value : " + number[3] + "\n" + number[1]);
 
-        String[] name = {"james", "jane", "berry", "jesse pinckman"};
+		System.out.println("\n==============================\n");
 
-        for (int i = 0; i < name.length; i++) {
+		String[] name = {"james", "jane", "berry", "jesse pinckman"};
 
-            System.out.println("Names :" + name[i]);
-        }
+		for (int i = 0; i < name.length; i++) {
 
-        System.out.println("\n================================\n");
+			System.out.println("Names :" + name[i]);
+		}
 
-        String[] fruit = {"Banana", "ornage", "vacado", "strawbarry", "pear"};
+		System.out.println("\n================================\n");
 
-        for (String fruits : fruit) {
+		String[] fruits = {"Banana", "orange", "avacaro", "strawbarry", "pear"};
 
-            System.out.println("Fruits :" + fruits);
-        }
+		for (String fruit : fruits) {
 
-        //arranjo,array,vetor, indeixe/chave, Array unidimencional, Array bidimensional  
-    
-         /*int tam = 5;
+			System.out.println("Fruits :" + fruit);
+		}
+
+		//arranjo,array,vetor, indeixe/chave, Array unidimencional, Array bidimensional  
+
+		int tam = 5;
         double[] notas = new double[tam];
         notas[0] = 10;
         notas[1] = 7.5;
@@ -47,14 +50,14 @@ public class ArrayUnidimencional {
             if (notas[0] == 10 ^ notas[3] == 2) {
 
                 System.out.println(notas[i]);
-                
+
             } else {
-                
+
                 System.out.println("Valor não encontrado");
             }
 
-        }*/
-    
-    }
+        }
+	}
+
 
 }

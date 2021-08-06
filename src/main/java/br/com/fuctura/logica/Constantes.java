@@ -7,7 +7,7 @@ package br.com.fuctura.logica;
  */
 public class Constantes {
   
-    public static final String name = "Roberto Carlos";
+    public static final String NAME = "Roberto Carlos";
     
     
     public static void main(String[] args) {
@@ -20,6 +20,6 @@ public class Constantes {
           public(pode chamar de qualquer ponto do programa)
         */
         
-           System.out.println("My name is: " + name + "my idade is " + idade);
+           System.out.println("My name is: " + NAME + "my idade is " + idade);
     }
 }

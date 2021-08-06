@@ -13,9 +13,9 @@ public class Entrada_de_dados {
         int one = recebe.nextInt();
         System.out.println("Digite outro valor");
         int two = recebe.nextInt();
-          
-        System.out.println("The soma among the values is: " + (one + two));
+        recebe.close();
         
+        System.out.println("The soma among the values is: " + (one + two));
     }
     
 }

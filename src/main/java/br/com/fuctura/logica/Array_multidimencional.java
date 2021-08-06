@@ -24,7 +24,7 @@ public class Array_multidimencional {
         
         System.out.println(galos[1][2]);
         
-        
+         
     }
     
 }

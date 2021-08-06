@@ -1,7 +1,7 @@
 package br.com.fuctura.logica;
 
 public class Atalhos {
-//no google: eclipse color theme
+//no google: eclipse color theme (baixa, file, import, preference, trás pro eclipse
 
 	String cidade;
 	int idade;
@@ -42,7 +42,8 @@ public class Atalhos {
 		 * Control + shift + / (adiciona comentário de bloco)
 		 * Control + shift + seta (início e fim do documento) entre as classes) 
 		 * Control + Shift + g (ver uma referência mais detalhada da classe, variável etc)
-		 * Control + shift + l (listar todos os atalhos do eclipse) 
+		 * Control + shift + l (listar todos os atalhos do eclipse)
+		 * Control + shift + # (Abre o commit e o git push) 
 		 * Control + t (em cima de uma classe para ver quem é o pai daquela classe) 
 		 * Control + shift + t (abre caixa, pesquisa nome de classe, aparece de onde estiver) 
 		 * Control + shirf + r procura arquivos, ex: notas, também classes) 
